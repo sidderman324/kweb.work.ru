@@ -1,0 +1,21 @@
+// Для импорта в диспетчер подключений: @import './src/less/blocks/main-menu.less';
+
+
+.main-menu {
+  display: inline-block;
+  flex-basis: 50%;
+
+  &__list {
+  	display: flex;
+  	flex-direction: row;
+  	list-style-type: none;
+  	justify-content: space-around;
+  }
+
+  &__link {
+  	font-size: 1em;
+  	color: @gray-color;
+  	text-decoration: none;
+  	text-transform: uppercase;
+  }
+}

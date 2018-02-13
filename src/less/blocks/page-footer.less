@@ -1,0 +1,35 @@
+// Для импорта в диспетчер подключений: @import './src/less/blocks/page-footer.less';
+
+
+.page-footer {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	padding-bottom: 15px;
+	z-index: 100;
+
+	&__inner {
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: flex-end;
+	}
+	&__text {
+		font-size: 1em;
+		color: @gray-color;
+		text-decoration: none;
+		// text-transform: uppercase;
+	}
+	&__copyright {
+		text-align: right;
+	}
+	&__link {
+		font-size: 1em;
+		color: @gray-color;
+	}
+}
