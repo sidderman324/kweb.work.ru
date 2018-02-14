@@ -30,6 +30,19 @@
 		text-decoration: none;
 		text-transform: uppercase;
 		flex-basis: 10%;
-		text-align: center;
+		text-align: right;
+		position: relative;
+		line-height: 19px;
+
+		&:before {
+			content: '';
+			display: inline-block;
+			width: 30px;
+			height: 19px;
+			position: absolute;
+			left: 10px;
+			top: -1px;
+			background-image: url('/img/flag_uk.png');
+		}
 	}
 }
