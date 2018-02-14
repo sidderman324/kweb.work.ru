@@ -7,6 +7,17 @@
 	overflow: hidden;
 	z-index: 100;
 
+	@media (min-width: @screen-md) and (max-width: @screen-lg) {
+		padding-top: 30px;
+	}
+	@media (min-width: @screen-sm) and (max-width: @screen-md) {
+		padding-top: 0;
+	}
+	@media (min-width: @screen-xs) and (max-width: @screen-sm) {
+		padding-top: 40px;
+	}
+
+
 	&__inner {
 		display: flex;
 		flex-direction: column;
@@ -17,19 +28,45 @@
 
 	&__block {
 		text-align: center;
+		
 		z-index: 10;
 		margin-bottom: 100px;
+
+		@media (min-width: @screen-xs) and (max-width: @screen-sm) {
+			margin-bottom: 40px;
+		}
 	}
+
 
 	&__title {
 		font-size: 2.5em;
 		font-weight: 300;
 		text-align: center;
+		@media (min-width: @screen-md) and (max-width: @screen-lg) {
+			font-size: 2.3em;
+			margin-bottom: 15px;
+		}
+		@media (min-width: @screen-sm) and (max-width: @screen-md) {
+			font-size: 2.0em;
+			margin-bottom: 10px;
+		}
+		@media (min-width: @screen-xs) and (max-width: @screen-sm) {
+			font-size: 1.4em;
+		}
 	}
 	&__text {
 		font-size: 1.25em;
 		font-weight: 300;
 		text-align: center;
+		@media (min-width: @screen-md) and (max-width: @screen-lg) {
+			font-size: 1em;
+		}
+		@media (min-width: @screen-sm) and (max-width: @screen-md) {
+			font-size: 1em;
+		}
+		@media (min-width: @screen-xs) and (max-width: @screen-sm) {
+			font-size: 0.8em;
+		}
 	}
 
 	&__btn {
@@ -45,6 +82,9 @@
 		border-right: 1px solid @black-color;
 		position: relative;
 		overflow: hidden;
+		@media (min-width: @screen-xs) and (max-width: @screen-sm) {
+			margin-top: 20px;
+		}
 		&:before {
 			content: '';
 			display: inline-block;

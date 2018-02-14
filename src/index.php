@@ -11,7 +11,7 @@
 <body>
 	<?php include ($_SERVER['DOCUMENT_ROOT'] . '/modules/header.php'); ?>
 	<!-- <img src="/img/main_bgr.png" alt="" class="main__bgr" id="mainBgr"> -->
-	<div class="paralax">
+	<div class="paralax" id="#paralax">
 		<div class="paralax_cloud"></div>
 		<div class="paralax_layer paralax_layer0"></div>
 		<div class="paralax_layer paralax_layer1"></div>
@@ -22,6 +22,7 @@
 		<div class="container main__inner">
 			<div class="main__block">
 				<h2 class="main__title">Услуги по организации ICO</h2>
+				<p class="main__text click"></p>
 				<p class="main__text">Оказываем полный спектр услуг по привлечению инвестиций в ваш проект</p>
 				<a href="" class="main__btn">Отправить заявку</a>
 			</div>
@@ -35,7 +36,7 @@
 
 	<?php include ($_SERVER['DOCUMENT_ROOT'] . '/modules/footer.php'); ?>
 
-	<script src='/js/script.min.js'></script>
+	<script src='/js/script.min.js?64654'></script>
 
 </body>
 </html>
