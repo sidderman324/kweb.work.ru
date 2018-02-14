@@ -2,9 +2,10 @@
 
 
 .main {
-	padding: 80px 0 80px 0;
+	padding: 60px 0 80px 0;
 	height: 100vh;
 	overflow: hidden;
+	z-index: 100;
 
 	&__inner {
 		display: flex;
@@ -17,10 +18,7 @@
 	&__block {
 		text-align: center;
 		z-index: 10;
-
-		&:first-of-type {
-			margin-bottom: 150px;
-		}
+		margin-bottom: 100px;
 	}
 
 	&__title {
@@ -56,6 +54,8 @@
 			position: absolute;
 			top: 0;
 			left: -100%;
+			transition: 0.6s;
+			transition-timing-function: ease-in-out;
 		}
 		&:after {
 			content: '';
@@ -66,22 +66,20 @@
 			position: absolute;
 			bottom: 0;
 			right: -100%;
+			transition: 0.6s;
+			transition-timing-function: ease-in-out;
 		}
 
-		&:hover .main__btn:before {
+		&:hover:before {
 			left: 0;
+			transition: 0.6s;
+			transition-timing-function: ease-in-out;
 		}
-		&:hover .main__btn:after {
+		&:hover:after {
 			right: 0;
+			transition: 0.6s;
+			transition-timing-function: ease-in-out;
 		}
-	}
-	&__bgr {
-		position: absolute;
-		top: 0;
-		z-index: 1;
-		height: 100%;
-		width: 100%;
-		background-image: url('/img/main_bgr.png');
-		background-position: center;
 	}
 }
+
