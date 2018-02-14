@@ -2,5 +2,37 @@
 
 
 .submenu {
-  display: none;
+	height: 0;
+	overflow: hidden;
+	display: none;
+
+	@media (min-width: @screen-xs) and (max-width: @screen-sm) {
+		position: relative;
+		display: none;
+		height: auto;
+		border-top: 1px dotted @gray-color;
+		border-bottom: 1px dotted @gray-color;
+		transition: top 1s ease-out 0.5s;
+		width: 100%;
+	}
+
+	&__item {
+		border: 0;
+		list-style-type: none;
+	}
+
+	&__link {
+		font-size: 0.8em;
+		color: @gray-color;
+		text-decoration: none;
+		display: block;
+		text-transform: uppercase;
+		@media (min-width: @screen-sm) and (max-width: @screen-md) {
+			font-size: 0.8em;
+		}
+		@media (min-width: @screen-xs) and (max-width: @screen-sm) {
+			line-height: 2;
+		}
+	}
+
 }
