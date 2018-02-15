@@ -2,16 +2,20 @@
 
 
 .submenu {
-	height: 0;
 	overflow: hidden;
-	display: none;
+	// display: none;
+	height: 0;
+	position: absolute;
+	z-index: 999;
+	left: 50%;
+	width: 300%;
+	transform: translateX(-50%);
+	transition: 0.3s ease-in-out;
 
 	@media (min-width: @screen-xs) and (max-width: @screen-sm) {
 		position: relative;
-		display: none;
-		height: auto;
-		border-top: 1px dotted @gray-color;
-		border-bottom: 1px dotted @gray-color;
+		// display: none;
+		height: 100%;
 		transition: top 1s ease-out 0.5s;
 		width: 100%;
 	}
@@ -19,14 +23,26 @@
 	&__item {
 		border: 0;
 		list-style-type: none;
+		text-align: center;
+		padding: 5px 0;
+		&:first-of-type {
+			padding-top: 15px;
+		}
+		// width: 200%;
 	}
 
 	&__link {
-		font-size: 0.8em;
+		font-size: 1em;
+		line-height: 2;
 		color: @gray-color;
 		text-decoration: none;
 		display: block;
 		text-transform: uppercase;
+		transition: 0.3s ease-in-out;
+		&:hover {
+			color: #000;
+			transition: 0.3s ease-in-out;
+		}
 		@media (min-width: @screen-sm) and (max-width: @screen-md) {
 			font-size: 0.8em;
 		}

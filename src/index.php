@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700&amp;subset=cyrillic" rel="stylesheet">
-	<link rel="stylesheet" href="/css/style.css?786546">
+	<link rel="stylesheet" href="/css/style.css?684654">
 	<title>Студия KWeb - дизайн и разработка сайтов, маркетинг, мобильные приложения, чат-боты, SEO, SMM</title>
 </head>
 <body>
@@ -31,7 +31,7 @@
 
 	<?php include ($_SERVER['DOCUMENT_ROOT'] . '/modules/footer.php'); ?>
 
-	<script src='/js/script.min.js?786546'></script>
+	<script src='/js/script.min.js?684654'></script>
 
 </body>
 </html>

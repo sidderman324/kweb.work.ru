@@ -7,8 +7,7 @@
 
 		<nav class="main-menu">
 			<ul class="main-menu__list">
-				<li class="main-menu__item"><a href="#" class="main-menu__link">Услуги</a>
-					<span class="main-menu__marker"></span>
+				<li class="main-menu__item"><a href="#" class="main-menu__link main-menu__link--hidden">Услуги</a>
 					<ul class="submenu">
 						<li class="submenu__item"><a href="#" class="submenu__link">Организация ICO</a></li>
 						<li class="submenu__item"><a href="#" class="submenu__link">Веб-услуги</a></li>
@@ -21,7 +20,7 @@
 			</ul>
 		</nav>
 
-		<a href="tel:+78002500025" class="page-header__phone">8-800-250-00-25</a>
+		<a href="tel:+78002500025" class="page-header__phone">8 800 250 00 25</a>
 
 		<a href="" class="page-header__lang-select">English</a>
 

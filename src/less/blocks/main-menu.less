@@ -14,8 +14,7 @@
 		padding-top: 15px;
 		position: absolute;
 		top: 100%;
-		left: 5px;
-		// right: -15px;
+		left: 0px;
 		width: 100%;
 		background-color: rgba(255,255,255,.9);
 	}
@@ -25,11 +24,22 @@
 		flex-direction: row;
 		list-style-type: none;
 		justify-content: space-around;
+		position: relative;
 		@media (min-width: @screen-xs) and (max-width: @screen-sm) {
 			padding: 0;
 			flex-direction: column;
 			text-align: center;
 			height: auto;
+			transition: 0.3s ease-in-out;
+		}
+
+	}
+
+	&__item {
+		position: relative;
+		&:hover .submenu{
+			height: auto;
+			transition: 0.3s ease-in-out;
 		}
 	}
 
@@ -39,12 +49,22 @@
 		text-decoration: none;
 		display: block;
 		text-transform: uppercase;
+		transition: 0.3s ease-in-out;
+		&:hover {
+			color: #000;
+			transition: 0.3s ease-in-out;
+		}
 		@media (min-width: @screen-sm) and (max-width: @screen-md) {
 			font-size: 0.8em;
 		}
 		@media (min-width: @screen-xs) and (max-width: @screen-sm) {
 			line-height: 2;
+			padding: 5px 0;
+			&--hidden {
+				display: none;
+			}
 		}
+
 	}
 
 	&__marker {

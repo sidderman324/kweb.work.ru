@@ -3,7 +3,8 @@
 
 .main {
 	padding: 60px 0 80px 0;
-	height: 100vh;
+	height: 100%;
+	width: 100%;
 	overflow: hidden;
 	z-index: 100;
 
@@ -13,8 +14,11 @@
 	@media (min-width: @screen-sm) and (max-width: @screen-md) {
 		padding-top: 0;
 	}
-	@media (min-width: @screen-xs) and (max-width: @screen-sm) {
+	@media (min-width: @screen-xs) and (max-width: @screen-sm) and (orientation:landscape) {
 		padding-top: 40px;
+	}
+	@media (min-width: @screen-xs) and (max-width: @screen-sm) and (orientation:portrait) {
+		padding-top: 0px;
 	}
 
 
@@ -24,6 +28,7 @@
 		align-items: center;
 		justify-content: center;
 		height: 100%;
+		flex-wrap: wrap;
 	}
 
 	&__block {
@@ -32,8 +37,13 @@
 		z-index: 10;
 		margin-bottom: 100px;
 
-		@media (min-width: @screen-xs) and (max-width: @screen-sm) {
-			margin-bottom: 40px;
+		@media (min-width: @screen-xs) and (max-width: @screen-sm) and (orientation:landscape) {
+			margin-bottom: 25px;
+			width: 50%;
+		}
+		@media (min-width: @screen-xs) and (max-width: @screen-sm) and (orientation:portrait) {
+			margin-bottom: 25px;
+			width: 100%;
 		}
 	}
 
@@ -50,7 +60,10 @@
 			font-size: 2.0em;
 			margin-bottom: 10px;
 		}
-		@media (min-width: @screen-xs) and (max-width: @screen-sm) {
+		@media (min-width: @screen-xs) and (max-width: @screen-sm) and (orientation:landscape) {
+			font-size: 1.2em;
+		}
+		@media (min-width: @screen-xs) and (max-width: @screen-sm) and (orientation:portrait) {
 			font-size: 1.4em;
 		}
 	}
@@ -64,7 +77,10 @@
 		@media (min-width: @screen-sm) and (max-width: @screen-md) {
 			font-size: 1em;
 		}
-		@media (min-width: @screen-xs) and (max-width: @screen-sm) {
+		@media (min-width: @screen-xs) and (max-width: @screen-sm) and (orientation:landscape) {
+			font-size: 0.7em;
+		}
+		@media (min-width: @screen-xs) and (max-width: @screen-sm) and (orientation:portrait) {
 			font-size: 0.8em;
 		}
 	}
@@ -83,7 +99,7 @@
 		position: relative;
 		overflow: hidden;
 		@media (min-width: @screen-xs) and (max-width: @screen-sm) {
-			margin-top: 20px;
+			margin-top: 10px;
 		}
 		&:before {
 			content: '';
