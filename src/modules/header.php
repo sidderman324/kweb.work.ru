@@ -2,7 +2,7 @@
 	<div class="container page-header__inner">
 
 		<a href="/" class="logo">
-			<img src="/img/kweb_logo_black.png" alt="" class="logo__img">
+			<img src="/img/kweb_logo_black.png" alt="" class="logo__img">   
 		</a>
 
 		<nav class="main-menu">

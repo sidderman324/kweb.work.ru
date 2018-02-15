@@ -8,9 +8,10 @@
 	z-index: 1;
 	height: 100vh;
 	width: 100vw;
+	z-index: 10;
 
 	@media (min-width: @screen-xs) and (max-width: @screen-md) {
-		background-image: url('/img/main_bgr.png');
+		background-image: url('/img/main_bgr_small.png');
 		background-size: cover;
 		background-position: 50% 90%;
 	}
@@ -59,6 +60,7 @@
 	left: 0;
 	background-image: url('/img/main_cloud.png');
 	background-size: cover;
+	background-repeat-x: repeat; 
 	z-index: 10;
 	@media (min-width: @screen-xs) and (max-width: @screen-sm) {
 		display: none;

@@ -25,11 +25,34 @@ $(document).ready(function(){
 		window.ondevicemotion = function(event) {
 			X = event.accelerationIncludingGravity.x;  
 			Y = event.accelerationIncludingGravity.y;
-			var parX = Number(X) / 15 + 50;
+			var parX = Number(X) / 10 + 50;
 			var parY = Number(Y) + 90;
 			jQuery('.paralax').css({"background-position-x": parX + "%", "background-position-y": parY + "%"})
 		}
 	}
+
+
+	// if (jQuery(window).width() < 768) {
+		// setInterval(function(){
+		// window.ondevicemotion = function(event) {
+					
+			
+		// 		X = event.accelerationIncludingGravity.x;  
+		// 		Y = event.accelerationIncludingGravity.y;
+		// 		var parX = Number(X) + 50;
+		// 		var parY = Number(Y) + 90;
+		// 		var pastX = 0;
+		// 		var currentX = parX;
+			
+		// 	pastX = currentX;
+		// 	jQuery('.click').text('pastX: '+ pastX + '  currentX:' + parX);
+		// 	jQuery('.paralax').css({"background-position-x": currentX + "%", "background-position-y": parY + "%"})
+		// }	
+		// }, 1000);
+
+	// }
+
+
 	jQuery('.page-header__burger-wrapper').on('click', function() {
 		jQuery(this).find('.page-header__burger').toggleClass('page-header__burger--active');
 		jQuery('.main-menu').slideToggle(300);

@@ -6,18 +6,12 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700&amp;subset=cyrillic" rel="stylesheet">
 	<link rel="stylesheet" href="/css/style.css">
-	<title>Document</title>
+	<title>Студия KWeb - дизайн и разработка сайтов, маркетинг, мобильные приложения, чат-боты, SEO, SMM</title>
 </head>
 <body>
 	<?php include ($_SERVER['DOCUMENT_ROOT'] . '/modules/header.php'); ?>
-	<!-- <img src="/img/main_bgr.png" alt="" class="main__bgr" id="mainBgr"> -->
-	<div class="paralax" id="#paralax">
-		<div class="paralax_cloud"></div>
-		<div class="paralax_layer paralax_layer0"></div>
-		<div class="paralax_layer paralax_layer1"></div>
-		<div class="paralax_layer paralax_layer2"></div>
-		<div class="paralax_layer paralax_layer3"></div>
-	</div>
+	<?php include ($_SERVER['DOCUMENT_ROOT'] . '/modules/paralax.php'); ?>
+
 	<section class="main">
 		<div class="container main__inner">
 			<div class="main__block">
@@ -36,7 +30,7 @@
 
 	<?php include ($_SERVER['DOCUMENT_ROOT'] . '/modules/footer.php'); ?>
 
-	<script src='/js/script.min.js?64654'></script>
+	<script src='/js/script.min.js?65465146'></script>
 
 </body>
 </html>
