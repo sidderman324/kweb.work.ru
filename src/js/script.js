@@ -11,19 +11,19 @@ $(document).ready(function(){
 
 		var x = (0.5 + e.pageX / jQuery(window).width() * 60) - 168;
 		var y = (0.5 + e.pageY / jQuery(window).height() * 5) - 117;
-		jQuery(this).find('.paralax_layer2').css('background-position', x + 'px ' + y + 'px');
+		jQuery(this).find('.paralax_layer2').css('background-position-x', x + 'px');
 
 		var x = (e.pageX / jQuery(window).width() * 120 - 20) - 100;
 		var y = (0.5 + e.pageY / jQuery(window).height() * 20) - 50;
-		jQuery(this).find('.paralax_layer3').css('background-position', x + 'px ' + y + 'px');
+		jQuery(this).find('.paralax_layer3').css('background-position-x', x + 'px');
 	});
 
 	if (jQuery(window).width() < 768) {
 		function onOrientationChange(e) {
 			var parX = Math.round(e.gamma);
 			var parY = Math.round(e.beta);
-			var x = 50 + parX / 6;
-			var y = 80 + parY / 5;
+			var x = 50 + parX / 25;
+			var y = 80 + parY / 15;
 			// jQuery('#click').text('parX: '+ x + 'parY: '+ parY);
 			jQuery('.paralax').css('background-position', x + '% ' + y + '%');
 		}
