@@ -21,7 +21,6 @@
 		padding-top: 0px;
 	}
 
-
 	&__inner {
 		display: flex;
 		flex-direction: column;
@@ -29,6 +28,9 @@
 		justify-content: center;
 		height: 100%;
 		flex-wrap: wrap;
+		@media(min-width: @screen-lg) and (-webkit-min-device-pixel-ratio: 1.2) {
+			flex-wrap: nowrap;
+		}
 	}
 
 	&__block {
@@ -45,6 +47,11 @@
 			margin-bottom: 25px;
 			width: 100%;
 		}
+
+		@media(min-width: @screen-lg) and (-webkit-min-device-pixel-ratio: 1.2) {
+			margin-bottom: 50px;
+		}
+
 	}
 
 

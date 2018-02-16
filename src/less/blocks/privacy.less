@@ -2,7 +2,7 @@
 
 
 .privacy {
-	padding: 120px 0 80px 0;
+	padding: 20px 0 80px 0;
 	height: 100vh;
 	overflow: hidden;
 	z-index: 100;
@@ -14,8 +14,11 @@
 		padding-top: 0;
 	}
 	@media (min-width: @screen-xs) and (max-width: @screen-sm) {
-		padding-top: 60px;
+		// padding-top: 60px;
 		// height: auto; 
+	}
+	@media(min-width: @screen-lg) and (-webkit-min-device-pixel-ratio: 1.2) {
+		padding-top: 0;
 	}
 
 	&__inner {

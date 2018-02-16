@@ -6,16 +6,20 @@
 	left: 50%;
 	transform: translate(-50%, -50%);
 	z-index: 1;
-	height: 100vh;
+	height: 110vh;
 	width: 100vw;
 	z-index: -1;
 
 	@media (min-width: @screen-xs) and (max-width: @screen-md) {
 		background-image: url('/img/main_bgr.png');
-		// background-size: cover;
+		background-repeat: no-repeat;
 		height: 100vh;
 		width: 130vw;
 		background-position: 50% 80%;
+	}
+	@media(min-width: @screen-lg) and (-webkit-min-device-pixel-ratio: 1.2) {
+		top: 50%;
+		height: 120vh;
 	}
 }
 
@@ -31,25 +35,28 @@
 	@media (min-width: @screen-xs) and (max-width: @screen-md) {
 		display: none;
 	}
-
 }
 .paralax_layer0{
 	background-image: url('/img/main_bgr_0.png');
+	background-repeat: no-repeat;
 	z-index: 1;
 	background-position-x: -170px;
 } 
 .paralax_layer1{
 	background-image: url('/img/main_bgr_1.png');
+	background-repeat: no-repeat;
 	z-index: 2;
 	background-position-x: -170px;
 }
 .paralax_layer2{
 	background-image: url('/img/main_bgr_2.png');
+	background-repeat: no-repeat;
 	z-index: 3;
 	background-position-x: -170px;
 }
 .paralax_layer3{
 	background-image: url('/img/main_bgr_3.png');
+	background-repeat: no-repeat;
 	z-index: 4;
 	background-position-x: -170px;
 }
@@ -58,7 +65,8 @@
 	height: 502px;
 	width: 100%;
 	position: absolute;
-	top: 32%;
+	top: 30%;
+	transform: translateY(-30%);
 	left: 0;
 	background-image: url('/img/main_cloud.png');
 	background-size: cover;

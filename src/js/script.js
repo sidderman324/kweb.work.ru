@@ -18,7 +18,7 @@ $(document).ready(function(){
 		jQuery(this).find('.paralax_layer3').css('background-position-x', x + 'px');
 	});
 
-	if (jQuery(window).width() < 768) {
+	if (jQuery(window).width() < 740) {
 		function onOrientationChange(e) {
 			var parX = Math.round(e.gamma);
 			var parY = Math.round(e.beta);
@@ -42,7 +42,7 @@ $(document).ready(function(){
 
 	function menuHideShow() {
 		var windowsWidth = jQuery(window).width();
-		if (windowsWidth > 768) {
+		if (windowsWidth > 740) {
 			jQuery('.main-menu').fadeIn(300);
 			jQuery('.page-header__burger').removeClass('page-header__burger--active');
 		}
