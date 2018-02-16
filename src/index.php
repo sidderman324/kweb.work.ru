@@ -6,8 +6,6 @@
 	<div class="container main__inner">
 		<div class="main__block">
 			<h2 class="main__title">Услуги по организации ICO</h2>
-
-			<p class="main__text click" id="click"></p>
 			<p class="main__text">Оказываем полный спектр услуг по привлечению инвестиций в ваш проект</p>
 			<a href="/catalog/ico_service/" class="main__btn">Отправить заявку</a>
 		</div>

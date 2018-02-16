@@ -225,7 +225,7 @@ gulp.task('serve', gulp.series('build', function() {
     );
   gulp.watch(                                               // следим за HTML
     [
-      dirs.source + '**/**/**/**/*.php',                              // в папке с исходниками
+      dirs.source + '/**/**/**/**/*.php',                              // в папке с исходниками
       dirs.source + '/modules/*.php',                     // и в папке с мелкими вставляющимся файлами
       ],
     gulp.series('php', reloader)                           // при изменении файлов запускаем пересборку HTML и обновление в браузере

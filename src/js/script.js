@@ -1,5 +1,7 @@
 $(document).ready(function(){
 
+	$("#phone").mask("+7 (999) 999-9999");
+
 	jQuery('body').mousemove(function(e){
 		var x = (0.5 + e.pageX / jQuery(window).width() * 5) - 168;
 		var y = (100 + e.pageY / jQuery(window).height() * 20);
@@ -35,16 +37,18 @@ $(document).ready(function(){
 		jQuery(this).find('.page-header__burger').toggleClass('page-header__burger--active');
 		jQuery('.main-menu').slideToggle(300);
 	});
-	jQuery('.main').on('click',function(){
-		jQuery('.page-header__burger--active').removeClass('page-header__burger--active');
-		jQuery('.main-menu').fadeOut(300);
-	})
+	
 
 	function menuHideShow() {
 		var windowsWidth = jQuery(window).width();
 		if (windowsWidth > 740) {
 			jQuery('.main-menu').fadeIn(300);
 			jQuery('.page-header__burger').removeClass('page-header__burger--active');
+		} if (windowsWidth < 740) {
+			jQuery('.main').on('click',function(){
+				jQuery('.page-header__burger--active').removeClass('page-header__burger--active');
+				jQuery('.main-menu').fadeOut(300);
+			});
 		}
 	};
 
