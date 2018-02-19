@@ -24,6 +24,13 @@
 			opacity: 0; 
 			transition: opacity 0.3s ease;
 		}
+		&--hidden {
+			cursor: pointer;
+			z-index: 9999;
+			padding-right: 50px;
+			padding-left: 20px;
+			overflow: hidden;
+		}
 	}
 
 	&__text {
@@ -36,6 +43,7 @@
 	}
 	.main__btn {
 		margin-top: 0;
+		z-index: 100;
 	}
 
 	&__submit {
@@ -44,5 +52,131 @@
 		position: absolute;
 		top: 0;
 		left: 0;
+		z-index: 900;
+		cursor: pointer;
+	}
+	&__input-wrapper {
+		position: relative;
+		cursor: pointer;
+		display: inline-block;
+	}
+	&__bgr {
+		background-color: transparent;
+		width: 100vw;
+		height: 100vh;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		display: none;
+	}
+	&__marker {
+		display: inline-block;		
+		position: absolute;
+		right: 28px;
+		top: 8px;
+		// transform: translateY(-50%);
+		transition: 0.3s ease-in-out;
+		background-color: @gray-color;
+		outline: none;
+		width: 2px;
+		height: 25px;
+		border-radius: 2px;
+
+		&:before {
+			content: '';
+			display: inline-block;
+			background-color: @gray-color;
+			outline: none;
+			width: 2px;
+			height: 20px;
+			border-radius: 1px;
+			position: absolute;
+			right: -8px;
+			top: 0;
+			transition: 0.3s ease-in-out;
+			border-radius: 2px;
+		}
+		&:after {
+			content: '';
+			display: inline-block;
+			background-color: @gray-color;
+			outline: none;
+			width: 2px;
+			height: 20px;
+			border-radius: 1px;
+			position: absolute;
+			left: -8px;
+			top: 0;
+			transition: 0.3s ease-in-out;
+			border-radius: 2px;
+		}
+
+		&--active {
+			height: 20px;
+			width: 2px;
+			&:before {
+				// right: 0 ;
+				// top: 0;
+				transition: 0.3s ease-in-out;
+				height: 25px;
+				width: 2px;
+			}
+			&:after {
+				// right: 0 ;
+				// bottom: -10px;
+				transition: 0.3s ease-in-out;
+				height: 25px;
+				width: 2px;
+			}
+		}
+	}
+	&__list {
+		display: inline-block;
+		position: absolute;
+		top: 40px;
+		left: 0;
+		width: 100%;
+		background-color: #fff;
+		z-index: 9999;
+		display: none;
+	}
+	&__item {
+		list-style-type: none;
+		height: 40px;
+		line-height: 38px;
+		width: 350px;
+		font-size: 1em;
+		color: #666666;
+		text-align: center;
+		cursor: pointer;
+		position: relative;
+		transition: opacity 0.3s ease;
+		&:after {
+			content: '+';
+			display: inline-block;
+			top: 40%;
+			transform: translateY(-50%);
+			right: 20px;
+			position: absolute;
+			color: #666666;
+			font-size: 1.8em;
+			&:hover {
+				color: #000;
+				transition: opacity 0.3s ease;
+			}
+		}
+		&:hover {
+			color: #000;
+			transition: opacity 0.3s ease;
+		}
+		&--active {
+			color: #000;
+			&:after {
+				content: '-';
+				color: #000;
+				right: 23px;
+			}
+		}
 	}
 }

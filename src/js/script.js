@@ -55,6 +55,42 @@ $(document).ready(function(){
 	jQuery(document).ready(menuHideShow);
 	jQuery(document).scroll(menuHideShow);
 	jQuery(window).resize(menuHideShow);
+
+	// jQuery('.feedback-form__input-wrapper').on('click', function(){
+	// 	jQuery('.feedback-form__list').fadeIn(200);
+	// 	jQuery('.feedback-form__marker').addClass('feedback-form__marker--active');
+	// });
+
+	function service_check() {
+		var serviceList = [];
+		jQuery('.feedback-form__item--active').each(function(indx, element){
+			serviceList.push($(element).text());
+		});
+		jQuery('.feedback-form__input--hidden').attr('value', serviceList);
+		console.log(serviceList);
+	};
+
+	jQuery('.feedback-form__input--hidden').on('click', function(){
+		jQuery('.feedback-form__list').slideToggle(200);
+		jQuery('.feedback-form__marker').toggleClass('feedback-form__marker--active');
+		jQuery('.feedback-form__bgr').slideToggle(200);
+		service_check();
+	});
+	jQuery('.feedback-form__bgr').on('click', function(){
+		jQuery('.feedback-form__bgr').fadeOut(200);
+		jQuery('.feedback-form__list').fadeOut(200);
+		jQuery('.feedback-form__marker').removeClass('feedback-form__marker--active');
+		service_check();
+	});
+	jQuery('.feedback-form__item').on('click', function(){
+		jQuery(this).toggleClass('feedback-form__item--active');
+		service_check();
+	});
+
+
+
+
+
 });
 
 

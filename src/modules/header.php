@@ -7,10 +7,10 @@
 
 		<nav class="main-menu">
 			<ul class="main-menu__list">
-				<li class="main-menu__item"><a href="#" class="main-menu__link main-menu__link--hidden">Услуги</a>
+				<li class="main-menu__item"><a class="main-menu__link main-menu__link--hidden">Услуги</a>
 					<ul class="submenu">
-						<li class="submenu__item"><a href="#" class="submenu__link"> Организация ICO</a></li>
-						<li class="submenu__item"><a href="#" class="submenu__link">Веб-услуги</a></li>
+						<li class="submenu__item"><a href="/ico_service/" class="submenu__link"> Организация ICO</a></li>
+						<li class="submenu__item"><a href="/web_service/" class="submenu__link">Веб-услуги</a></li>
 					</ul>
 				</li>
 				<li class="main-menu__item"><a href="#" class="main-menu__link">Портфолио</a>
