@@ -179,4 +179,35 @@
 			}
 		}
 	}
+
+	&__result {
+		display: none;
+		width: 50%;
+		height: 200px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		background-color: rgba(255,255,255,.8);
+		transform: translate(-50%,-50%);
+		z-index: 9999;
+	}
+	&__close {
+		position: absolute;
+		top: 20px;
+		right: 20px;
+		background-image: url(/img/close_btn.png);
+		display: inline-block;
+		background-size: contain;
+		width: 35px;
+		height: 35px;
+		cursor: pointer;
+	}
+	&__result-text {
+		font-size: 2.0em;
+		font-weight: 300;
+		margin: 50px 100px;
+		text-align: center;
+		text-decoration: none;
+		color: #000;
+	}
 }
