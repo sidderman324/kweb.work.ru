@@ -105,6 +105,7 @@ $(document).ready(function(){
 				success: function(){
 					jQuery('.feedback-form__result').fadeIn(200);
 					jQuery('.feedback-form__result-text').text('Ваша заявка принята, с Вами свяжется наш менеджер');
+					jQuery('.feedback-form__marker').removeClass('feedback-form__marker--active');
 					document.getElementById('form_send').reset();
 				},
 				error: function(){

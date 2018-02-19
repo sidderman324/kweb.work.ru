@@ -5,7 +5,7 @@
 <section class="main">
 	<div class="container main__inner">
 		<div class="main__block main__block--wide">
-			<h1 class="main__title main__title--small">У Вас есть проект,  которому нужны  инвестиции?<br>Оставьте заявку на проведение ICO</h1>
+			<h1 class="main__title main__title--small">У Вас есть не реализованный интернет проект?<br>Оставьте заявку на реализацию веб услуг</h1>
 			<form action="/php/feedback_script.php" method="post" class="feedback-form feedback-form--wide" id="form_send">
 				<span class="feedback-form__input-wrapper">
 					<span class="feedback-form__bgr"></span>
