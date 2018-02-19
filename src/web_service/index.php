@@ -4,13 +4,13 @@
 
 <section class="main">
 	<div class="container main__inner">
-		<div class="main__block">
+		<div class="main__block main__block--wide">
 			<h1 class="main__title main__title--small">У Вас есть проект,  которому нужны  инвестиции?<br>Оставьте заявку на проведение ICO</h1>
-			<form action="/php/feedback_script.php" method="post" class="feedback-form" id="form_send">
+			<form action="/php/feedback_script.php" method="post" class="feedback-form feedback-form--wide" id="form_send">
 				<span class="feedback-form__input-wrapper">
 					<span class="feedback-form__bgr"></span>
 					<span class="feedback-form__marker"></span>
-					<input type="text" class="feedback-form__input feedback-form__input--hidden" name="serviceType" placeholder="Выберите услуги из списка" required>
+					<input type="text" class="feedback-form__input feedback-form__input--hidden" name="serviceType" placeholder="Выберите услуги из списка" required readonly >
 					<ul class="feedback-form__list">
 						<li class="feedback-form__item"> Дизайн сайтов</li>
 						<li class="feedback-form__item"> Разработка сайтов</li>
