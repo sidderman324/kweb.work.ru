@@ -27,6 +27,8 @@
 		justify-content: space-between;
 		z-index: 999;
 		position: relative;
+		text-align: justify;
+		vertical-align: middle;
 	}
 
 	&__phone {
@@ -34,9 +36,10 @@
 		color: @gray-color;
 		text-decoration: none;
 		text-transform: uppercase;
-		flex-basis: 18%;
+		width: 18%;
 		text-align: center;
 		transition: 0.3s ease-in-out;
+		display: inline-block;
 		&:hover {
 			color: #000;
 			transition: 0.3s ease-in-out;
@@ -48,7 +51,7 @@
 		}
 		@media (min-width: @screen-xs) and (max-width: @screen-sm) {
 			font-size: 0.8em;
-			flex-basis: 50%;
+			width: 50%;
 		}
 	}
 
@@ -57,14 +60,15 @@
 		color: @gray-color;
 		text-decoration: none;
 		text-transform: uppercase;
-		flex-basis: 10%;
+		width: 10%;
 		text-align: right;
 		position: relative;
 		line-height: 19px;
+		display: inline-block;
 
 		@media (min-width: @screen-md) and (max-width: @screen-lg) {
 			// padding-left: 10px;
-			flex-basis: 12%;
+			width: 12%;
 		}
 		@media (min-width: @screen-sm) and (max-width: @screen-md) {
 			font-size: 0;
@@ -77,11 +81,12 @@
 			content: '';
 			display: inline-block;
 			width: 30px;
-			height: 19px;
+			height: 26px;
 			position: absolute;
-			left: 10px;
-			top: -1px;
-			background-image: url('/img/flag_uk.png');
+			left: 7px;
+			top: -4px;
+			background-size: contain;
+			background-repeat: no-repeat;
 
 			@media (min-width: @screen-md) and (max-width: @screen-lg) {
 				left: 0;
@@ -93,8 +98,19 @@
 			@media (min-width: @screen-xs) and (max-width: @screen-sm) {
 				left: auto;
 				right: 5px;
-			}
+			}		
 		}
+		&--eng {
+			&:before {
+				background-image: url('/img/flag_uk.png');		
+			}
+		}	
+		&--rus {
+			&:before {
+				background-image: url('/img/flag_rus.png');
+			}
+		}		
+
 	}
 
 

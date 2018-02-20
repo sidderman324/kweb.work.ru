@@ -38,9 +38,6 @@
 			width: 100%;
 			margin: 0;
 		}
-
-
-
 	}
 
 	&__input {
@@ -136,13 +133,15 @@
 		position: absolute;
 		right: 28px;
 		top: 8px;
-		// transform: translateY(-50%);
 		transition: 0.3s ease-in-out;
 		background-color: @gray-color;
 		outline: none;
 		width: 2px;
 		height: 25px;
 		border-radius: 2px;
+		@media (min-width: @screen-xs) and (max-width: @screen-sm) and (orientation:portrait) {
+			height: 20px;
+		}
 
 		&:before {
 			content: '';
@@ -158,6 +157,9 @@
 			transition: 0.3s ease-in-out;
 			border-radius: 2px;
 			@media (min-width: @screen-xs) and (max-width: @screen-sm) and (orientation:landscape) {
+				height: 16px;
+			}
+			@media (min-width: @screen-xs) and (max-width: @screen-sm) and (orientation:portrait) {
 				height: 16px;
 			}
 		}
@@ -177,13 +179,19 @@
 			@media (min-width: @screen-xs) and (max-width: @screen-sm) and (orientation:landscape) {
 				height: 16px;
 			}
+			@media (min-width: @screen-xs) and (max-width: @screen-sm) and (orientation:portrait) {
+				height: 16px;
+			}
 		}
 
 		&--active {
 			height: 16px;
 			width: 2px;
 			@media (min-width: @screen-xs) and (max-width: @screen-sm) and (orientation:landscape) {
-
+				height: 16px;
+			}
+			@media (min-width: @screen-xs) and (max-width: @screen-sm) and (orientation:portrait) {
+				height: 16px;
 			}
 			&:before {
 				// right: 0 ;
@@ -192,6 +200,9 @@
 				height: 25px;
 				width: 2px;
 				@media (min-width: @screen-xs) and (max-width: @screen-md) and (orientation:landscape) {
+					height: 20px;
+				}
+				@media (min-width: @screen-xs) and (max-width: @screen-sm) and (orientation:portrait) {
 					height: 20px;
 				}
 			}
@@ -204,15 +215,21 @@
 				@media (min-width: @screen-xs) and (max-width: @screen-md) and (orientation:landscape) {
 					height: 20px;
 				}
+				@media (min-width: @screen-xs) and (max-width: @screen-sm) and (orientation:portrait) {
+					height: 20px;
+				}
 			}
 		}
 
 		@media (min-width: @screen-xs) and (max-width: @screen-sm) and (orientation:landscape) {
-			height: 20px;
+			// height: 20px;
 			top: 3px;
 			right: 15px;
 		}
 		@media (min-width: @screen-xs) and (max-width: @screen-sm) and (orientation:portrait) {
+			// height: 20px;
+			top: 3px;
+			right: 15px;
 		}
 	}
 	&__list {
@@ -268,6 +285,9 @@
 			width: 100%;
 		}
 		@media (min-width: @screen-xs) and (max-width: @screen-sm) and (orientation:portrait) {
+			height: 25px;
+			line-height: 24px;
+			width: 100%;
 		}
 	}
 

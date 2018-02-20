@@ -2,7 +2,7 @@
 
 
 .main {
-	padding: 60px 0 80px 0;
+	// padding: 80px 0 80px 0;
 	height: 100%;
 	width: 100%;
 	overflow: hidden;
@@ -30,7 +30,11 @@
 		height: 100%;
 		flex-wrap: wrap;
 		@media(min-width: @screen-lg) and (-webkit-min-device-pixel-ratio: 1.2) {
-			flex-wrap: nowrap;
+			// flex-wrap: nowrap;
+		}
+		@media(max-height: 650px) and (min-width: @screen-lg) {
+			width: 50%;
+			flex-wrap: wrap;
 		}
 	}
 
@@ -38,8 +42,19 @@
 		text-align: center;
 		
 		z-index: 10;
-		margin-bottom: 100px;
-
+		margin-bottom: 10%;
+		@media (min-width: @screen-md) and (max-width: @screen-lg) {
+			width: 50%;
+		}
+		@media(max-height: 700px) and (min-width: @screen-sm) {
+			width: 50%;
+		}
+		@media(max-height: 650px) and (min-width: @screen-lg) {
+			width: 50%;
+		}
+		@media(max-height: 650px) and (max-width: @screen-lg) {
+			width: 50%;
+		}
 		@media (min-width: @screen-xs) and (max-width: @screen-sm) and (orientation:landscape) {
 			margin-bottom: 25px;
 			width: 50%;
