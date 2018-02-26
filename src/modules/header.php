@@ -13,7 +13,7 @@
 						<li class="submenu__item"><a href="/web_service/" class="submenu__link">Веб-услуги</a></li>
 					</ul>
 				</li>
-				<li class="main-menu__item"><a href="#" class="main-menu__link">Портфолио</a>
+				<li class="main-menu__item"><a href="/portfolio/" class="main-menu__link">Портфолио</a>
 				</li>
 				<li class="main-menu__item"><a href="#" class="main-menu__link">Команда</a></li>
 				<li class="main-menu__item"><a href="#" class="main-menu__link">Контакты</a></li>

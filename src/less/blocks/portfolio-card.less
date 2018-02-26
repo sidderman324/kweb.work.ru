@@ -1,0 +1,77 @@
+// Для импорта в диспетчер подключений: @import './src/less/blocks/portfolio-card.less';
+
+
+.portfolio-card {
+	display: inline-block;
+	flex-basis: 25%;
+	height: 408px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-decoration: none;
+	text-align: center;
+	padding: 30px;
+	box-sizing: border-box;
+	position: relative;
+
+	&--wide {
+		flex-basis: 50%;
+
+		.portfolio-card__list {
+			width: 80%;
+		}
+		.portfolio-card__title {
+			width: 50%;
+		}
+	}
+	&--negabarit {
+		background-image: url('/img/portfolio_negabarit.png');
+	}
+	&--ico_expert {
+		background-color: #3342ff;
+		background-image: url('/img/ico_exp_logo.png');
+		background-size: 75%;
+
+		.portfolio-card__title {
+			color: @light-gray-color;
+		}
+	}
+	&--uri {
+		background-image: url('/img/portfolio_uri.png');
+	}
+
+	&__title {
+		color: #000;
+		font-size: 1em;
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	// &__list {
+	// 	margin: 0 auto;
+	// 	position: absolute;
+	// 	bottom: 0;
+	// 	left: 50%;
+	// 	transform: translateX(-50%);
+	// 	width: 100%;
+	// 	padding: 30px;
+	// }
+
+	// &__item {
+	// 	font-size: 1em;
+	// 	color: @black-color;
+	// 	list-style-type: none;
+	// 	text-align: left;
+	// 	line-height: 1.3;
+	// 	&:before {
+	// 		content: '+';
+	// 		padding-right: 5px;
+	// 	}
+	// 	&--result {
+	// 		&:before {
+	// 			content: '=';
+	// 			padding-right: 5px;
+	// 		}
+	// 	}
+	// }
+}

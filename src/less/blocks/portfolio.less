@@ -1,0 +1,61 @@
+// Для импорта в диспетчер подключений: @import './src/less/blocks/portfolio.less';
+
+
+.portfolio {
+	height: 100%;
+	padding: 30px 0;
+	h1 {
+		font-size: 2em;
+		color: @gray-color;
+		font-weight: 300;
+		margin: 0;
+		padding-top: 50px;
+		padding-left: 70px;
+		position: relative;
+		&:before {
+			content: '';
+			display: inline-block;
+			height: 66px;
+			width: 51px;
+			position: absolute;
+			left: 0;
+			top: 0;
+			border-bottom: 3px solid @gray-color;
+			border-left: 3px solid @gray-color;
+		}
+	}
+
+	&__tag-wrapper {
+		padding: 40px 70px;
+	}
+	&__tag {
+		font-size: 1em;
+		line-height: 35px;
+		padding: 0 15px 0 30px;
+		color: @gray-color;
+		display: inline-block;
+		text-decoration: none;
+		border: 1px solid @gray-color;
+		transition: 0.3s ease-in-out;
+		position: relative;
+		&:before {
+			content: '#';
+			position: absolute;
+			left: 15px;
+		}
+
+		&:hover {
+			color: @black-color;
+			border: 1px solid @black-color;
+			transition: 0.3s ease-in-out;
+		}
+	}
+
+	&__item-wrapper {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		width: 100%;
+	}
+
+}
