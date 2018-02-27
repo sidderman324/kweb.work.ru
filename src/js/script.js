@@ -44,11 +44,15 @@ $(document).ready(function(){
 		if (windowsWidth > 740) {
 			jQuery('.main-menu').fadeIn(300);
 			jQuery('.page-header__burger').removeClass('page-header__burger--active');
+			jQuery('.page-header__strip').fadeIn(200);
+			var activePos = ((jQuery('.main-menu').position().left + jQuery('.active').position().left + jQuery('.active').width()) - parseInt(jQuery('.page-header__strip').css('left')));
+			jQuery('.page-header__strip').css('width', activePos);
 		} if (windowsWidth < 740) {
 			jQuery('.main').on('click',function(){
 				jQuery('.page-header__burger--active').removeClass('page-header__burger--active');
 				jQuery('.main-menu').fadeOut(300);
 			});
+			jQuery('.page-header__strip').fadeOut(200);
 		}
 	};
 

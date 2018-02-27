@@ -26,7 +26,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/php/meta_data.php');
 			case 'en':include ($_SERVER['DOCUMENT_ROOT'] . '/modules/header-en.php');break;
 			default:include ($_SERVER['DOCUMENT_ROOT'] . '/modules/header.php');break;
 		}
-		if ($page == 'portfolio') { } elseif ($page == 'usual') { include ($_SERVER['DOCUMENT_ROOT'] . '/modules/paralax.php'); }
+		if ($page == 'portfolio') { } else { include ($_SERVER['DOCUMENT_ROOT'] . '/modules/paralax.php'); }
 	}
 
 	function get_footer() {

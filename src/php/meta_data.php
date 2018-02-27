@@ -52,20 +52,34 @@ $meta_info = array(
 	),
 );
 
-$cur_url = $_SERVER['REQUEST_URI'];
+$service = "";
+$portfolio = "";
+$team = "";
+$contacts = "";
 
+$cur_url = $_SERVER['REQUEST_URI'];
+$urls = explode('/', $cur_url);
+// echo $urls[1];
+
+switch ($urls[1]) {
+	case '': {$page = "main";} break;
+	case 'ico_service': {$page = "ico_service"; $service = "active"; } break;
+	case 'web_service': {$page = "web_service"; $service = "active"; } break;
+	case 'privacy_policy': {$page = "privacy_policy";} break;
+	case 'portfolio': {$page = "portfolio"; $portfolio = "active"; } break;
+	case 'team': {$page = "team"; $team = "active"; } break;
+	case 'contacts': {$page = "contacts"; $contacts = "active"; } break;
+	default: break;	
+}
 switch ($cur_url) {
-	case '/': $page = "main"; break;
-	case '/ico_service/': $page = "ico_service"; break;
-	case '/web_service/': $page = "web_service"; break;
-	case '/privacy_policy/': $page = "privacy_policy"; break;
-	case '/portfolio/': $page = "portfolio"; break;
-	case '/en/': $page = "en_main"; break;
-	case '/en/ico_service/': $page = "en_ico_service"; break;
-	case '/en/web_service/': $page = "en_web_service"; break;
-	case '/en/privacy_policy/': $page = "en_privacy_policy"; break;
-	case '/en/portfolio/': $page = "en_portfolio"; break;
-	default: break;
+	case '/en/': {$page = "contacts";} break;
+	case '/en/ico_service/': {$page = "en_ico_service"; $service = "active"; } break;
+	case '/en/web_service/': {$page = "en_web_service"; $service = "active"; } break;
+	case '/en/privacy_policy/': {$page = "en_privacy_policy";} break;
+	case '/en/portfolio/': {$page = "en_portfolio"; $portfolio = "active"; } break;
+	case '/en/team/': {$page = "en_team"; $team = "active"; } break;
+	case '/en/contacts/': {$page = "en_contacts"; $contacts = "active"; } break;
+	default: break;	
 }
 
 ?>
