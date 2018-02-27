@@ -18,8 +18,9 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/php/meta_data.php');
 		<meta name="description" content="<?php echo $meta_info[$page]['description']; ?>" />
 		<title><?php echo $meta_info[$page]['title']; ?></title>
 	</head>
-	<?php if (($page == 'portfolio') or ($page == 'en_portfolio')) { echo '<body style="background-image: url(/img/portfolio_bgr.png); min-height: 100vh;">'; } elseif ($page == 'usual') { echo '<body>'; } ?>
-	<!-- <body> -->
+	<?php $type = ""; if (($page == 'portfolio') or ($page == 'en_portfolio')) { $type = 'main-portfolio'; echo '<body>'; } else { echo '<body style="overflow: hidden; ">'; } ?>
+		
+		<div class="main-inner <?php echo $type; ?>">
 		<?php 
 		$urls = explode('/', $cur_url);
 		switch ($urls[1]) {
@@ -72,6 +73,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/php/meta_data.php');
 		</script>
 		<noscript><div><img src="https://mc.yandex.ru/watch/47769340" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 		<!-- /Yandex.Metrika counter -->
+		</div>
 	</body>
 	</html>
 	<?php

@@ -22,6 +22,7 @@
 			<a href="#" class="portfolio-card portfolio-card--uri">
 				<p class="portfolio-card__title">Сайт для юридических и бухгалтерских услуг</p>
 			</a>
+			
 		</div>
 	</div>
 </section>
