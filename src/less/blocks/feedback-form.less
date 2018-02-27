@@ -141,6 +141,13 @@
 		border-radius: 2px;
 		@media (min-width: @screen-xs) and (max-width: @screen-sm) and (orientation:portrait) {
 			height: 20px;
+			top: 3px;
+			right: 15px;
+		}
+		@media (min-width: @screen-xs) and (max-width: @screen-sm) and (orientation:landscape) {
+			height: 20px;
+			top: 3px;
+			right: 15px;
 		}
 
 		&:before {
@@ -221,16 +228,7 @@
 			}
 		}
 
-		@media (min-width: @screen-xs) and (max-width: @screen-sm) and (orientation:landscape) {
-			// height: 20px;
-			top: 3px;
-			right: 15px;
-		}
-		@media (min-width: @screen-xs) and (max-width: @screen-sm) and (orientation:portrait) {
-			// height: 20px;
-			top: 3px;
-			right: 15px;
-		}
+
 	}
 	&__list {
 		display: inline-block;
