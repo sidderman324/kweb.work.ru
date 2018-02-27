@@ -1,0 +1,147 @@
+// Для импорта в диспетчер подключений: @import './src/less/blocks/case.less';
+
+
+.case {
+	padding: 20px 0;
+
+	.container {
+		position: relative;
+	}
+
+	&__border {
+		width: 3px;
+		height: 0;
+		display: inline-block;
+		background-color: @gray-color;
+		position: absolute;
+		top: 0;
+		left: 11px;
+		transition: 2s ease-in-out;
+	}
+
+	&__block {
+		padding: 50px 0 60px 85px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+
+		&--tag {
+			align-items: flex-start;
+			padding-left: 380px;
+		}
+
+		.portfolio__tag-wrapper {
+			padding: 0;
+		}
+	}
+	&__block-head {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		align-items: flex-start;
+		width: 100%;
+		position: relative;
+	}
+
+	&__title {
+		font-size: 1.5em;
+		text-transform: uppercase;
+		color: @black-color;
+		font-weight: 400;
+		margin: 0;
+		position: relative;
+		display: inline-block;
+		position: relative;
+		width: 250px;
+		// flex-basis: 20%;
+		&--main {
+			width: auto;
+		}
+	}
+	&__strip {
+		display: inline-block;
+		height: 3px;
+		width: 0;
+		position: absolute;
+		left: -83px;
+		top: 12px;
+		border-bottom: 3px solid @gray-color;
+		transition: 1s ease-in-out;
+	}
+
+	&__img {
+
+		&--small {
+			position: absolute;
+			width: 50%;
+			top: 50%;
+			right: -100px;
+			transform: translateY(-50%);
+			z-index: 9999;
+		}
+	}
+
+	&__text {
+		font-size: 1em;
+		color: @black-color;
+		width: 750px;
+
+		&--date {
+			margin-left: auto;
+			text-align: right;
+		}
+	}
+
+	&__list {
+		padding-left: 15px;
+	}
+
+	&__item {
+		font-size: 1em;
+		color: @black-color;
+		// text-decoration: underline;
+		line-height: 1.3;		
+
+		a {
+			color: @black-color;
+		}
+
+		span {
+			font-weight: 300;
+			text-decoration: none;
+		}
+	}
+
+	&__frame {
+		width: 721px;
+		height: 449px;
+		overflow: scroll;
+		overflow-x: hidden;
+		position: absolute;
+		top: 40px;
+		left: 117px;
+	}
+	.case__frame::-webkit-scrollbar { width: 3px; height: 3px;}
+	.case__frame::-webkit-scrollbar-button { display: none; background-color: transparent; }
+	.case__frame::-webkit-scrollbar-track {  background-color: transparent;}
+	.case__frame::-webkit-scrollbar-track-piece { background-color: transparent;}
+	.case__frame::-webkit-scrollbar-thumb { height: 70px; background-color: @gray-color; border-radius: 3px;}
+
+	&__frame-wrapper {
+		display: inline-block;
+		margin: 60px 0 20px 0;
+		width: 954px;
+		height: 557px;
+		// width: 100%;
+		// height: 100%;
+		// position: absolute;
+		position: relative;
+		background-image: url('/img/case_wrapper.png');
+	}
+
+	&__btn {
+		margin-top: 30px;
+		text-align: center;
+	}
+}
