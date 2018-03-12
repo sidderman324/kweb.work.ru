@@ -25,6 +25,11 @@ $meta_info = array(
 		"description" => "Портфолио KWeb Studio",
 		"h1" => ""
 	),
+	"team" => array(
+		"title" => "Команда специалистов KWeb Studio",
+		"description" => "Команда специалистов KWeb Studio",
+		"h1" => ""
+	),
 	"en_main" => array(
 		"title" => "KWeb Studio - website design and development, marketing, mobile applications, chat-bots, SEO, SMM",
 		"description" => "KWeb Studio - website design and development, marketing, mobile applications, chat-bots, SEO, SMM",
@@ -48,6 +53,11 @@ $meta_info = array(
 	"en_portfolio" => array(
 		"title" => "Portfolio KWeb Studio",
 		"description" => "Portfolio KWeb Studio",
+		"h1" => ""
+	),
+	"en_team" => array(
+		"title" => "Team KWeb Studio",
+		"description" => "Team KWeb Studio",
 		"h1" => ""
 	),
 );

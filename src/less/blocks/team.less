@@ -1,0 +1,85 @@
+// Для импорта в диспетчер подключений: @import './src/less/blocks/team.less';
+
+
+.team {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 30px 0;
+
+	@media (min-width: @screen-sm) and (max-width: @screen-md) and (orientation:landscape) {
+		padding: 15px 0;
+	}
+	@media (min-width: @screen-sm) and (max-width: @screen-md) and (orientation:portrait) {
+		padding: 15px 0;
+	}
+
+	&__wrapper {
+		@media (min-width: @screen-xs) and (max-width: @screen-sm) and (orientation:landscape) {
+			padding: 10px 0;
+			.portfolio h1 {
+				font-size: 1.5em;
+			}
+		}
+		@media (min-width: @screen-xs) and (max-width: @screen-sm) and (orientation:portrait) {
+			padding: 10px 0;
+			.portfolio h1 {
+				font-size: 1.5em;
+			}
+		}
+	}
+
+	&__item {
+		flex-basis: 25%;
+		text-align: center;
+		padding-bottom: 20px;
+
+		@media (min-width: @screen-sm) and (max-width: @screen-md) and (orientation:landscape) {
+			flex-basis: 25%;
+		}
+		@media (min-width: @screen-sm) and (max-width: @screen-md) and (orientation:portrait) {
+			flex-basis: 33%;
+		}
+		@media (min-width: @screen-xs) and (max-width: @screen-sm) and (orientation:landscape) {
+			flex-basis: 21%;
+			padding-bottom: 5px;
+		}
+		@media (min-width: @screen-xs) and (max-width: @screen-sm) and (orientation:portrait) {
+			flex-basis: 33%;
+			padding-bottom: 5px;
+		}
+	}
+	&__image {
+		width: 60%;
+		height: auto;
+
+		@media (min-width: @screen-sm) and (max-width: @screen-lg) and (orientation:landscape) {
+			width: 50%;
+		}
+		@media (min-width: @screen-sm) and (max-width: @screen-lg) and (orientation:portrait) {
+			width: 60%;
+		}
+		@media (min-width: @screen-xs) and (max-width: @screen-sm) and (orientation:landscape) {
+			width: 40%;
+		}
+		@media (min-width: @screen-xs) and (max-width: @screen-sm) and (orientation:portrait) {
+			width: 40%;
+		}
+	}
+
+	&__name {
+		font-weight: 500;
+		font-size: 1em;
+		@media (min-width: @screen-xs) and (max-width: @screen-sm) {
+			font-size: 0.7em;
+		}
+	}
+	&__position {
+		font-weight: 300;
+		font-size: 1em;
+		@media (min-width: @screen-xs) and (max-width: @screen-sm) {
+			font-size: 0.7em;
+		}
+	}
+}
