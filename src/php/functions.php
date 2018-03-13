@@ -21,7 +21,7 @@ function get_header() {
 	<?php 
 	$urls = explode('/', $cur_url);
 	$type = ""; 
-	if (($page == 'portfolio') or ($page == 'en_portfolio')  or ($page == 'team')  or ($page == 'en_team')) { $type = 'main-portfolio'; echo '<body>'; } 
+	if (($page == 'portfolio') or ($page == 'en_portfolio') or ($page == 'team') or ($page == 'en_team')) { $type = 'main-portfolio'; echo '<body>'; } 
 	else { echo '<body style="overflow: hidden; ">'; } 
 		if($urls[2] != "") { $case_name = $urls[2]; }
 		?>

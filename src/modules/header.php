@@ -16,7 +16,7 @@
 				<li class="main-menu__item <?php echo $portfolio; ?>"><a href="/portfolio/" class="main-menu__link">Портфолио</a>
 				</li>
 				<li class="main-menu__item <?php echo $team; ?>"><a href="/team/" class="main-menu__link">Команда</a></li>
-				<li class="main-menu__item <?php echo $contacts; ?>"><a href="#" class="main-menu__link">Контакты</a></li>
+				<li class="main-menu__item <?php echo $contacts; ?>"><a href="/contacts/" class="main-menu__link">Контакты</a></li>
 			</ul>
 		</nav>
 
