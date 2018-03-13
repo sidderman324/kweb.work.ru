@@ -69,7 +69,7 @@ $contacts = "";
 
 $cur_url = $_SERVER['REQUEST_URI'];
 $urls = explode('/', $cur_url);
-// echo $urls[1];
+// echo $cur_url;
 
 switch ($urls[1]) {
 	case '': {$page = "main";} break;

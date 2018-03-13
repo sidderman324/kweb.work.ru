@@ -20,7 +20,7 @@
 			</ul>
 		</nav>
 
-		<a href="tel:+78002500025" class="page-header__phone">8 800 250 00 25</a>
+		<a href="tel:+78002500025" class="page-header__phone">8 900 253 87 87</a>
 
 		<a href="/en/" class="page-header__lang-select page-header__lang-select--eng">English</a>
 

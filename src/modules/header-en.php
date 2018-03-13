@@ -9,18 +9,18 @@
 			<ul class="main-menu__list">
 				<li class="main-menu__item <?php echo $service; ?>"><a class="main-menu__link main-menu__link--hidden">Service</a>
 					<ul class="submenu">
-						<li class="submenu__item"><a href="/en/ico_service/" class="submenu__link"> Организация ICO</a></li>
-						<li class="submenu__item"><a href="/en/web_service/" class="submenu__link">Веб-услуги</a></li>
+						<li class="submenu__item"><a href="/en/ico_service/" class="submenu__link">ICO</a></li>
+						<li class="submenu__item"><a href="/en/web_service/" class="submenu__link">WEB studio</a></li>
 					</ul>
 				</li>
-				<li class="main-menu__item <?php echo $portfolio; ?>"><a href="#" class="main-menu__link">Портфолио</a>
+				<li class="main-menu__item <?php echo $portfolio; ?>"><a href="#" class="main-menu__link">Portfolio</a>
 				</li>
-				<li class="main-menu__item <?php echo $team; ?>"><a href="#" class="main-menu__link">Команда</a></li>
-				<li class="main-menu__item <?php echo $contacts; ?>"><a href="#" class="main-menu__link">Контакты</a></li>
+				<li class="main-menu__item <?php echo $team; ?>"><a href="#" class="main-menu__link">Team</a></li>
+				<li class="main-menu__item <?php echo $contacts; ?>"><a href="#" class="main-menu__link">Contacts</a></li>
 			</ul>
 		</nav>
 
-		<a href="tel:+78002500025" class="page-header__phone">8 800 250 00 25</a>
+		<a href="tel:+78002500025" class="page-header__phone">8 900 253 87 87</a>
 
 		<a href="/" class="page-header__lang-select page-header__lang-select--rus">Русский</a>
 
