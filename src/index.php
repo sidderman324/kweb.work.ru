@@ -2,6 +2,8 @@
 
 <?php get_header(); ?>
 
+<?php include ($_SERVER['DOCUMENT_ROOT'] . '/modules/paralax.php'); ?>
+
 <section class="main">
 	<div class="container main__inner">
 		<div class="main__block">

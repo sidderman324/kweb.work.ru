@@ -2,6 +2,8 @@
 
 <?php get_header(); ?>
 
+<?php include ($_SERVER['DOCUMENT_ROOT'] . '/modules/paralax.php'); ?>
+
 <section class="portfolio team__wrapper">
 	<div class="container">
 		<h1 class="portfolio__title">Наша команда</h1>
