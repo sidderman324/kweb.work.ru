@@ -2,10 +2,26 @@
 
 
 .contacts {
-	padding: 30px 0;
-	display: flex;
-	flex-direction: row;
-	align-items: center;
+	height: auto;
+	background-image: url('/img/portfolio_negabarit_bgr.png');   
+	min-height: 100vh;
+	height: auto;
+	background-size: cover;
+
+	.team__wrapper {
+		padding: 30px 0;
+	}
+
+	&__wrapper {
+		padding: 30px 0;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		height: 100%;
+		@media (min-width: @screen-xs) and (max-width: @screen-sm) {
+			flex-direction: column;
+		}
+	}
 
 	&__block {
 		width: 49%;
@@ -14,9 +30,21 @@
 		height: 100%;
 		min-height: 350px;
 
+		@media (min-width: @screen-xs) and (max-width: @screen-sm) {
+			width: 100%;
+			min-height: auto;
+			padding-bottom: 35px;
+		}
+
 		&:first-of-type {
 			padding-right: 50px;
 			padding-top: 30px;
+		}
+		&--map {
+			height: 450px;
+			@media (min-width: @screen-xs) and (max-width: @screen-sm) {
+				height: 200px;
+			}
 		}
 	}
 
@@ -24,21 +52,24 @@
 		display: inline-block;
 		width: 50%;
 		text-align: left;
-		font-weight: 500;
+		font-weight: 300;
 		font-size: 1em;
 		&:first-of-type {
 			margin-bottom: 30px;
+			@media (min-width: @screen-xs) and (max-width: @screen-sm) {
+				margin-bottom: 10px;
+			}
 		}
 		@media (min-width: @screen-xs) and (max-width: @screen-sm) {
-			font-size: 0.7em;
+			font-size: 0.8em;
+			width: 75%;
+		}
+		span {
+			font-weight: 500;
 		}
 
 		&--link {
 			font-weight: 300;
-
-			&:first-of-type {
-				margin-top: 30px;
-			}
 		}
 	}
 	&__text--link {

@@ -12,11 +12,10 @@
 	transform: translateX(-50%);
 	transition: 0.3s ease-in-out;
 	background-color: rgba(247,249,249,.9);
-	
-
-	@media(max-height: 800px) {
-		
+	@media (min-width: @screen-xs) and (max-width: @screen-sm) {
+		background-color: transparent;
 	}
+
 
 	@media (min-width: @screen-xs) and (max-width: @screen-sm) {
 		position: relative;

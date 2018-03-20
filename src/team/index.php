@@ -2,13 +2,11 @@
 
 <?php get_header(); ?>
 
-<?php include ($_SERVER['DOCUMENT_ROOT'] . '/modules/paralax.php'); ?>
-
-<section class="portfolio team__wrapper">
+<section class="portfolio">
 	<div class="container">
 		<h1 class="portfolio__title">Наша команда</h1>
 
-		<div class="team">
+		<div class="team__wrapper">
 
 			<div class="team__item">
 				<img src="/img/team_artem.png" alt="" class="team__image">

@@ -6,7 +6,7 @@ if (isset($_POST["phoneNumber"])) { $person_phone = $_POST["phoneNumber"];}
 if (isset($_POST["serviceType"])) { $service_type = $_POST["serviceType"];}
 
 
-$mail_to = "syd.phoenix@gmail.com"; 
+$mail_to = "info@kweb.studio"; 
 // info@kweb.studio
 $mail_from = "Новая заявка на KWeb.studio" . "\n";
 $mail_body = '<html>  
