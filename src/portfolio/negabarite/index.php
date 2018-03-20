@@ -65,11 +65,11 @@
 				<span class="case__strip"></span>
 				<h2 class="case__title">ДЕЯТЕЛИ</h2>
 				<ul class="case__list">
-					<li class="case__item"><span>STO:</span> <a href="#">Артем Малютин</a></li>
-					<li class="case__item"><span>Designer:</span> <a href="#">Алексей Ющенко</a></li>
-					<li class="case__item"><span>Front-End dev.:</span> <a href="#">Сергей  Сидоров</a></li>
-					<li class="case__item"><span>Back-End dev.:</span> <a href="#">Константин Камышин</a></li>
-					<li class="case__item"><span>SEO/SMM:</span> <a href="#">Даниил Герасименко</a></li>
+					<li class="case__item"><span>STO:</span> <a href="#">Артем</a></li>
+					<li class="case__item"><span>Designer:</span> <a href="#">Алексей</a></li>
+					<li class="case__item"><span>Front-End dev.:</span> <a href="#">Сергей</a></li>
+					<li class="case__item"><span>Back-End dev.:</span> <a href="#">Сергей, Эрик</a></li>
+					<li class="case__item"><span>SEO/SMM:</span> <a href="#">Даниил</a></li>
 				</ul>
 				<img src="/img/portfolio_negabarit_truck_2.png" alt="" class="case__img case__img--small">
 			</div>

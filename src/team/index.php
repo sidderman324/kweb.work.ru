@@ -33,11 +33,11 @@
 				<p class="team__name">Даниил</p>
 				<p class="team__position">SEO, SMM</p>
 			</div>
-			<div class="team__item">
+<!-- 			<div class="team__item">
 				<img src="/img/team_yura.png" alt="" class="team__image">
 				<p class="team__name">Юрий</p>
 				<p class="team__position">Project Manager</p>
-			</div>
+			</div> -->
 			<div class="team__item">
 				<img src="/img/team_erik.png" alt="" class="team__image">
 				<p class="team__name">Эрик</p>

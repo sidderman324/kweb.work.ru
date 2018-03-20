@@ -92,13 +92,19 @@ switch ($urls[1]) {
 	default: break;	
 }
 switch ($cur_url) {
-	case '/en/': {$page = "contacts";} break;
+	case '/en/': {$page = "main";} break;
 	case '/en/ico_service/': {$page = "en_ico_service"; $service = "active"; } break;
 	case '/en/web_service/': {$page = "en_web_service"; $service = "active"; } break;
 	case '/en/privacy_policy/': {$page = "en_privacy_policy";} break;
 	case '/en/portfolio/': {$page = "en_portfolio"; $portfolio = "active"; } break;
 	case '/en/team/': {$page = "en_team"; $team = "active"; } break;
 	case '/en/contacts/': {$page = "en_contacts"; $contacts = "active"; } break;
+	default: break;	
+}
+switch ($cur_url) {
+	case '/dev/': {$dev = "dev";} break;
+	case '/en/ico_service/': {$page = "dev"; $dev = "active"; } break;
+
 	default: break;	
 }
 
