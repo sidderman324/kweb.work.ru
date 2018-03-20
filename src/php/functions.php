@@ -13,7 +13,7 @@ function get_header() {
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 		<link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700&amp;subset=cyrillic" rel="stylesheet">
-		<link rel="stylesheet" href="/css/style.css">
+		<link rel="stylesheet" href="/css/style.css?v=1480333475">
 		<link rel="icon" type="image/PNG" href="/favicon.png">
 		<meta name="description" content="<?php echo $meta_info[$page]['description']; ?>" />
 		<title><?php echo $meta_info[$page]['title']; ?></title>
@@ -50,7 +50,7 @@ function get_header() {
 			</div>
 
 
-		<script src='/js/script.min.js'></script>
+		<script src='/js/script.min.js?v=1480333475'></script>
 		<!-- Yandex.Metrika counter -->
 		<script type="text/javascript" >
 			(function (d, w, c) {

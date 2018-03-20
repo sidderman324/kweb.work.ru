@@ -29,12 +29,13 @@
 			<a href="/portfolio/merkata/" class="portfolio-card portfolio-card--merkata">
 				<p class="portfolio-card__title"">Онлайн касса для Вашего бизнеса</p>
 			</a>
+						<a href="/portfolio/aquaris/" class="portfolio-card portfolio-card--aquaris">
+				<p class="portfolio-card__title"">Лэндинг<br> Aquaris системы автополива</p>
+			</a>
 			<a href="http://narod-hoz.ru/" class="portfolio-card portfolio-card--wide  portfolio-card--peregnoj" target="_blank">
 				<p class="portfolio-card__title">Как продавать перегной в интернете?</p>
 			</a>
-			<a href="/portfolio/aquaris/" class="portfolio-card portfolio-card--aquaris">
-				<p class="portfolio-card__title"">Лэндинг<br> Aquaris системы автополива</p>
-			</a>
+
 			
 
 			<a href="/portfolio/honey_teddy/" class="portfolio-card portfolio-card--wide portfolio-card--honey_teddy">
