@@ -1,3 +1,26 @@
+<?php
+
+$service = "";
+$portfolio = "";
+$team = "";
+$contacts = "";
+
+$cur_url = $_SERVER['REQUEST_URI'];
+$urls = explode('/', $cur_url);
+
+switch ($urls[1]) {
+	case '': {$page = "main";} break;
+	case 'ico_service': {$page = "ico_service"; $service = "active"; } break;
+	case 'web_service': {$page = "web_service"; $service = "active"; } break;
+	case 'privacy_policy': {$page = "privacy_policy";} break;
+	case 'portfolio': {$page = "portfolio"; $portfolio = "active"; } break;
+	case 'team': {$page = "team"; $team = "active"; } break;
+	case 'dev': {$page = "dev"; $dev = "active"; } break;
+	case 'contacts': {$page = "contacts"; $contacts = "active"; } break;
+	default: break;	
+}
+?>
+
 <header class="page-header">
 	<div class="container page-header__inner">
 

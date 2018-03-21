@@ -1,6 +1,22 @@
-<?php include ($_SERVER['DOCUMENT_ROOT'] . '/php/functions.php'); ?>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700&amp;subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet" href="/css/style.css?v=1480333475">
+	<link rel="icon" type="image/PNG" href="/favicon.png">
+	<meta name="description" content="RUDEX монтаж дверей и порталов" />
+	<title>RUDEX монтаж дверей и порталов</title>
+</head>
 
-<?php get_header(); ?>
+
+<body>
+
+	<div class="main-inner main-portfolio">
+
+		<?php include ($_SERVER['DOCUMENT_ROOT'] . '/modules/header.php'); ?>
 
 <section class="case">
 	<div class="container">
@@ -8,7 +24,7 @@
 		<div class="case__block">
 			<div class="case__block-head">
 				<span class="case__strip"></span>
-				<h1 class="case__title case__title--main">RUDEX  монтаж дверей и порталов</h1>
+				<h1 class="case__title case__title--main">RUDEX монтаж дверей и порталов</h1>
 				<p class="case__text case__text--date">Дата выпуска: 20.02.2018</p>
 			</div>
 			<div class="case__frame-wrapper">
@@ -46,6 +62,7 @@
 	</div>
 </section>
 
+		<?php include ($_SERVER['DOCUMENT_ROOT'] . '/modules/footer.php'); ?>
 
-
-<?php get_footer(); ?>
+	</body>
+	</html>
