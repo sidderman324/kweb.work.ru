@@ -22,10 +22,10 @@
 			<div class="container">
 				<h1 class="portfolio__title">Портфолио</h1>
 				<div class="portfolio__tag-wrapper">
-					<a href="/dev/websitedev.php" class="portfolio__tag">Разработка сайтов</a>
-					<a href="/dev/seo.php" class="portfolio__tag">SEO продвижение сайтов</a>
-					<a href="/dev/smm.php" class="portfolio__tag">SMM</a>
-					<a href="/dev/marketing.php" class="portfolio__tag">Интернет-маркетинг</a>
+					<a href="/dev/websitedev/" class="portfolio__tag">Разработка сайтов</a>
+					<a href="/dev/seo/" class="portfolio__tag">SEO продвижение сайтов</a>
+					<a href="/dev/smm/" class="portfolio__tag">SMM</a>
+					<a href="/dev/marketing/" class="portfolio__tag">Интернет-маркетинг</a>
 				</div>
 
 				<div class="portfolio__item-wrapper">
@@ -48,7 +48,7 @@
 					<a href="/portfolio/aquaris/" class="portfolio-card portfolio-card--aquaris">
 						<p class="portfolio-card__title"">Лэндинг<br> Aquaris системы автополива</p>
 					</a>
-					<a href="http://narod-hoz.ru/" class="portfolio-card portfolio-card--wide  portfolio-card--peregnoj" target="_blank">
+					<a href="/portfolio/peregnoj/" class="portfolio-card portfolio-card--wide  portfolio-card--peregnoj" target="_blank">
 						<p class="portfolio-card__title">Как продавать перегной в интернете?</p>
 					</a>
 
@@ -77,7 +77,7 @@
 
 
 					<a href="/portfolio/science_prom/" class="portfolio-card portfolio-card--science_prom" target="_blank">
-						<p class="portfolio-card__title">Лэндинг<br> Министерства Промышленности и Науки</p>
+						<p class="portfolio-card__title">Портал<br> Министерства Промышленности и Науки</p>
 					</a>
 
 				</div>
