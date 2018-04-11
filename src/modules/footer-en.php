@@ -14,7 +14,7 @@
 </div>
 
 
-<script src='/js/script.min.js?v=1480333475'></script>
+<script src='/js/script.min.js?v=78654664'></script>
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript" >
 	(function (d, w, c) {

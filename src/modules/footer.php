@@ -13,8 +13,11 @@
 			<p class="feedback-form__result-text">Ваша заявка принята, с Вами свяжется наш менеджер</p>
 		</div>
 
-
-		<script src='/js/script.min.js?v=1480333475'></script>
+		<!-- <script src='/js/jquery-3.1.1.js'></script> -->
+		<!-- <script src='/js/jquery-migrate-1.4.1.min.js'></script> -->
+		<!-- <script src='/js/jquery.maskedinput.min.js'></script> -->
+		<!-- <script src='/js/script.js'></script> -->
+		<script src='/js/script.min.js?v=78654664'></script>
 		<!-- Yandex.Metrika counter -->
 		<script type="text/javascript" >
 			(function (d, w, c) {

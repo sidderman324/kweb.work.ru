@@ -65,8 +65,11 @@ body {
     bottom: 0;
   }
 }
+.fixed {
+  position: fixed;
+}
 .negabarite,.merkata, .aquaris, .dreams, .doors, .honey_teddy, .rudex, .used_cars, .pride_max, .science_prom, .main-inner {
-  background-image: url('/img/portfolio_negabarit_bgr.png');  
+  background-image: url('/img/portfolio_negabarit_bgr.png');
   min-height: 100vh;
   height: auto;
   background-size: cover;
@@ -74,7 +77,9 @@ body {
     display: none;
   }
 }
-
+.main-inner--paralax {
+  background-image: none;
+}
 .container {
   padding: 0 10px;
   margin: 0 auto;
@@ -109,6 +114,13 @@ body {
   font-weight: normal;
   text-align: left;
 }
+.main_text h3 {
+  font-size: 1.2em;
+  color: #3B3B3B;
+  margin: 25px 0;
+  font-weight: normal;
+  text-align: left;
+}
 .main_text p {
   font-size: 1em;
   color: #3B3B3B;
@@ -134,7 +146,7 @@ body {
   color: #3B3B3B;
   line-height: 1.3;
   width: 85%;
-  margin: 50px auto;  
+  margin: 50px auto;
   border-collapse: collapse;
 }
 .main_text td {

@@ -17,7 +17,7 @@ switch ($urls[1]) {
 	case 'team': {$page = "team"; $team = "active"; } break;
 	case 'dev': {$page = "dev"; $dev = "active"; } break;
 	case 'contacts': {$page = "contacts"; $contacts = "active"; } break;
-	default: break;	
+	default: break;
 }
 ?>
 
@@ -25,7 +25,7 @@ switch ($urls[1]) {
 	<div class="container page-header__inner">
 
 		<a href="/" class="logo">
-			<img src="/img/kweb_logo_black.png" alt="" class="logo__img">   
+			<img src="/img/kweb_logo_black.png" alt="" class="logo__img">
 		</a>
 
 		<nav class="main-menu">
@@ -41,7 +41,7 @@ switch ($urls[1]) {
 						<li class="submenu__item"><a href="/dev/websitedev/" class="submenu__link">Разработка сайтов и сервисов</a></li>
 						<li class="submenu__item"><a href="/dev/seo/" class="submenu__link">SEO продвижение сайтов</a></li>
 						<li class="submenu__item"><a href="/dev/smm/" class="submenu__link">SMM и SMO</a></li>
-						<li class="submenu__item"><a href="/dev/marketing/" class="submenu__link">Интернет маркетинг</a></li>						
+						<li class="submenu__item"><a href="/dev/marketing/" class="submenu__link">Интернет маркетинг</a></li>
 					</ul>
 				</li>
 				<li class="main-menu__item <?php echo $portfolio; ?>"><a href="/portfolio/" class="main-menu__link">Портфолио</a>
@@ -53,7 +53,7 @@ switch ($urls[1]) {
 
 		<a href="tel:+79002538787" class="page-header__phone">8 900 253 87 87</a>
 
-		<a href="/en/" class="page-header__lang-select page-header__lang-select--eng">English</a>
+		<!-- <a href="/en/" class="page-header__lang-select page-header__lang-select--eng">English</a> -->
 
 		<div class="page-header__burger-wrapper">
 			<span class="page-header__burger"></span>

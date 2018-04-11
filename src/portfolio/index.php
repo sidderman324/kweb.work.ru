@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700&amp;subset=cyrillic" rel="stylesheet">
-	<link rel="stylesheet" href="/css/style.css?v=1480333475">
+	<link rel="stylesheet" href="/css/style.css?v=78654664">
 	<link rel="icon" type="image/PNG" href="/favicon.png">
 	<meta name="description" content="Портфолио KWeb Studio" />
 	<title>Портфолио KWeb Studio</title>
@@ -69,7 +69,7 @@
 						<p class="portfolio-card__title">Лэндинг<br> Входные и межкомнатные двери</p>
 					</a>
 					<a href="/portfolio/used_cars/" class="portfolio-card portfolio-card--used_cars" target="_blank">
-						<p class="portfolio-card__title">Лэндинг<br> Организация мероприятий</p>
+						<p class="portfolio-card__title">Лэндинг<br> TITAN CARS</p>
 					</a>
 					<a href="/portfolio/pride_max/" class="portfolio-card portfolio-card--wide portfolio-card--pride_max">
 						<p class="portfolio-card__title">Лэндинг<br> Производство видео роликов</p>

@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700&amp;subset=cyrillic" rel="stylesheet">
-	<link rel="stylesheet" href="/css/style.css?v=1480333475">
+	<link rel="stylesheet" href="/css/style.css?v=78654664">
 	<link rel="icon" type="image/PNG" href="/favicon.png">
 	<meta name="description" content="Мерката - онлайн-касса" />
 	<title>Мерката - онлайн-касса</title>

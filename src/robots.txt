@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Host: http://kweb.studio/
+Sitemap: http://kweb.studio/sitemap.xml

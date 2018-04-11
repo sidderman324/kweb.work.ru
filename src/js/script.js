@@ -35,9 +35,10 @@ $(document).ready(function(){
 
 	jQuery('.page-header__burger-wrapper').on('click', function() {
 		jQuery(this).find('.page-header__burger').toggleClass('page-header__burger--active');
+		jQuery('body').toggleClass('fixed');
 		jQuery('.main-menu').slideToggle(300);
 	});
-	
+
 
 	function menuHideShow() {
 		var windowsWidth = jQuery(window).width();
@@ -47,9 +48,11 @@ $(document).ready(function(){
 			jQuery('.page-header__strip').fadeIn(200);
 			var activePos = ((jQuery('.main-menu').position().left + jQuery('.active').position().left + jQuery('.active').width()) - parseInt(jQuery('.page-header__strip').css('left')));
 			jQuery('.page-header__strip').css('width', activePos);
-			jQuery('.case__strip').css('width', '53px');
-			var borderPos = jQuery('.case__strip:last').offset().top - jQuery('.page-header').height() - 47;
-			jQuery('.case__border').css('height', borderPos);
+			if(jQuery('.main-inner').hasClass('main-portfolio')){
+				jQuery('.case__strip').css('width', '53px');
+				var borderPos = jQuery('.case__strip:last').offset().top - jQuery('.page-header').height() - 47;
+				jQuery('.case__border').css('height', borderPos);
+			}
 		} if (windowsWidth < 740) {
 			jQuery('.main').on('click',function(){
 				jQuery('.page-header__burger--active').removeClass('page-header__burger--active');
@@ -135,7 +138,3 @@ $(document).ready(function(){
 
 
 });
-
-
-
-
