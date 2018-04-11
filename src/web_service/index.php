@@ -40,9 +40,9 @@
 							</ul>
 						</span>
 						<input type="text" class="feedback-form__input" name="yourName" placeholder="Ваше имя">
-						<input type="email" class="feedback-form__input" name="yourMail" placeholder="Ваш e-mail" required>
+						<input type="email" class="feedback-form__input" id="mail" name="yourMail" placeholder="Ваш e-mail" required>
 						<p class="feedback-form__text">Заполняя данную форму Вы принимаете условия <a href="/privacy_policy/" class="">Политики конфиденциальности</a><br> в том числе в части обработки и использования персональных данных</p>
-						<span class="main__btn"><input type="submit" class="feedback-form__submit main__btn" value="Отправить заявку"></span>
+						<span class="main__btn"><input type="submit" class="feedback-form__submit main__btn" value="Отправить заявку" disabled="enable"></span>
 					</form>
 				</div>
 

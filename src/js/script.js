@@ -20,6 +20,26 @@ $(document).ready(function(){
 		jQuery(this).find('.paralax_layer3').css('background-position-x', x + 'px');
 	});
 
+	jQuery('#mail').blur(function(){
+		if($(this).val() != '') {
+			$(this).removeClass('feedback-form__input--warn');
+			jQuery('.feedback-form__submit').removeAttr('disabled');
+
+			var pattern = /^([a-z0-9_\.-])+@[a-z0-9-]+\.([a-z]{2,4}\.)?[a-z]{2,4}$/i;
+			if(pattern.test($(this).val())){
+				$(this).removeClass('feedback-form__input--warn');
+				jQuery('.feedback-form__submit').removeAttr('disabled');
+			} else {
+				$(this).addClass('feedback-form__input--warn');
+				jQuery('.feedback-form__submit').attr('disabled','disabled');
+			}
+
+		} else {
+			$(this).addClass('feedback-form__input--warn');
+			jQuery('.feedback-form__submit').attr('disabled','disabled');
+		}
+	});
+
 	if (jQuery(window).width() < 740) {
 		function onOrientationChange(e) {
 			var parX = Math.round(e.gamma);
