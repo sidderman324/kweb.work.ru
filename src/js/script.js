@@ -66,9 +66,11 @@ $(document).ready(function(){
 			jQuery('.main-menu').fadeIn(300);
 			jQuery('.page-header__burger').removeClass('page-header__burger--active');
 			jQuery('.page-header__strip').fadeIn(200);
-			var activePos = ((jQuery('.main-menu').position().left + jQuery('.active').position().left + jQuery('.active').width()) - parseInt(jQuery('.page-header__strip').css('left')));
-			jQuery('.page-header__strip').css('width', activePos);
+
 			if(jQuery('.main-inner').hasClass('main-portfolio')){
+				var activePos = ((jQuery('.main-menu').position().left + jQuery('.active').position().left + jQuery('.active').width()) - parseInt(jQuery('.page-header__strip').css('left')));
+				jQuery('.page-header__strip').css('width', activePos);
+				
 				jQuery('.case__strip').css('width', '53px');
 				var borderPos = jQuery('.case__strip:last').offset().top - jQuery('.page-header').height() - 47;
 				jQuery('.case__border').css('height', borderPos);

@@ -4,7 +4,7 @@
 .page-header {
 	display: block;
 	width: 100%;
-	padding-top: 30px;
+	padding-top: 20px;
 	z-index: 9999;
 	@media (min-width: @screen-md) and (max-width: @screen-lg) {
 		padding-top: 15px;
@@ -57,14 +57,15 @@
 
 	&__lang-select {
 		font-size: 1em;
-		color: @gray-color;
-		text-decoration: none;
-		text-transform: uppercase;
-		width: 10%;
-		text-align: right;
-		position: relative;
-		line-height: 19px;
-		display: inline-block;
+    color: #666666;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 13%;
+    text-align: left;
+    position: relative;
+    line-height: 19px;
+    display: inline-block;
+    padding-left: 40px;
 
 		@media (min-width: @screen-md) and (max-width: @screen-lg) {
 			// padding-left: 10px;
@@ -108,6 +109,11 @@
 		&--rus {
 			&:before {
 				background-image: url('/img/flag_rus.png');
+			}
+		}
+		&--ch {
+			&:before {
+				background-image: url('/img/flag_chinese.png');
 			}
 		}
 

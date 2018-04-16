@@ -14,7 +14,7 @@
 
 <body>
 
-	<div class="main-inner">
+	<div class="main-inner main-inner--paralax">
 
 		<?php include ($_SERVER['DOCUMENT_ROOT'] . '/modules/header-en.php'); ?>
 
@@ -29,8 +29,8 @@
 				</div>
 				<div class="main__block">
 					<a href="/en/web_service/" class="main__title">Web services</a>
-					<h1 class="main__text">Design and development of sites, marketing, mobile applications, chat-bots, SEO, SMM</h1>
-					<a href="/en/web_service/" class="main__btn">To order</a>
+					<h1 class="main__text">Design and development of websites, marketing, mobile applications, chat-bots, SEO, SMM</h1>
+					<a href="/en/web_service/" class="main__btn">Order</a>
 				</div>
 			</div>
 		</section>

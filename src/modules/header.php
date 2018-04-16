@@ -53,7 +53,8 @@ switch ($urls[1]) {
 
 		<a href="tel:+79002538787" class="page-header__phone">8 900 253 87 87</a>
 
-		<!-- <a href="/en/" class="page-header__lang-select page-header__lang-select--eng">English</a> -->
+		<a href="/en/" class="page-header__lang-select page-header__lang-select--eng">English / </a>
+		<a href="/ch/" class="page-header__lang-select page-header__lang-select--ch">中国</a>
 
 		<div class="page-header__burger-wrapper">
 			<span class="page-header__burger"></span>

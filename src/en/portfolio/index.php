@@ -14,41 +14,75 @@
 
 <body>
 
-	<div class="main-inner">
+	<div class="main-inner main-portfolio portfolio">
 
 		<?php include ($_SERVER['DOCUMENT_ROOT'] . '/modules/header-en.php'); ?>
 
-<section class="portfolio__wrapper">
-	<div class="container">
-		<h1 class="portfolio__title">PORTFOLIO</h1>
-		<div class="portfolio__tag-wrapper">
-			<a href="/en/dev/websitedev.php" class="portfolio__tag">Website development</a>
-			<a href="/en/dev/seo.php" class="portfolio__tag">SEO</a>
-			<a href="/en/dev/smm.php" class="portfolio__tag">SMM</a>
-			<a href="/en/dev/marketing.php" class="portfolio__tag">Web-marketing</a>
-		</div>
+		<section class="portfolio__wrapper">
+			<div class="container">
+				<h1 class="portfolio__title">Portfolio</h1>
+				<div class="portfolio__tag-wrapper">
+					<a href="/dev/websitedev/" class="portfolio__tag">website development</a>
+					<a href="/dev/seo/" class="portfolio__tag">SEO website promotion</a>
+					<a href="/dev/smm/" class="portfolio__tag">SMM</a>
+					<a href="/dev/marketing/" class="portfolio__tag">internet marketing</a>
+				</div>
 
-		<div class="portfolio__item-wrapper">
-			<a href="/portfolio/negabarite/" class="portfolio-card portfolio-card--wide portfolio-card--negabarit">
-				<p class="portfolio-card__title">Road construction machinery</p>
-			</a>
-			<a href="http://lco.expert/" class="portfolio-card portfolio-card--ico_expert" target="_blank">
-				<p class="portfolio-card__title">News and articles about crypto currency</p>
-			</a>
-			<a href="http://yri.st/" class="portfolio-card portfolio-card--uri" target="_blank">
-				<p class="portfolio-card__title">Lawyer and accounting services</p>
-			</a>
+				<div class="portfolio__item-wrapper">
 
-			<a href="/portfolio/merkata/" class="portfolio-card portfolio-card--merkata">
-				<p class="portfolio-card__title"">Online cash-machine</p>
-			</a>
-			<a href="http://narod-hoz.ru/" class="portfolio-card portfolio-card--wide  portfolio-card--peregnoj" target="_blank">
-				<p class="portfolio-card__title">How to sale non-internet product</p>
-			</a>
-			
-		</div>
-	</div>
-</section>
+					<a href="/portfolio/negabarite/" class="portfolio-card portfolio-card--wide portfolio-card--negabarit">
+						<p class="portfolio-card__title">Сайт по аренде дорожно-строительной техники</p>
+					</a>
+					<a href="http://lco.expert/" class="portfolio-card portfolio-card--ico_expert" target="_blank">
+						<p class="portfolio-card__title">Media website on cryptocurrency</p>
+					</a>
+					<a href="http://yri.st/" class="portfolio-card portfolio-card--uri" target="_blank">
+						<p class="portfolio-card__title">A website for legal and accountancy services</p>
+					</a>
+
+
+
+					<a href="/portfolio/merkata/" class="portfolio-card portfolio-card--merkata">
+						<p class="portfolio-card__title"">Онлайн касса для Вашего бизнеса</p>
+					</a>
+					<a href="/portfolio/aquaris/" class="portfolio-card portfolio-card--aquaris">
+						<p class="portfolio-card__title"">Лэндинг<br> Aquaris системы автополива</p>
+					</a>
+					<a href="/portfolio/peregnoj/" class="portfolio-card portfolio-card--wide  portfolio-card--peregnoj" target="_blank">
+						<p class="portfolio-card__title">Как продавать перегной в интернете?</p>
+					</a>
+
+
+
+					<a href="/portfolio/honey_teddy/" class="portfolio-card portfolio-card--wide portfolio-card--honey_teddy">
+						<p class="portfolio-card__title">Лэндинг<br> Витамины для волос Honey Teddy</p>
+					</a>
+					<a href="/portfolio/doors/" class="portfolio-card portfolio-card--doors" target="_blank">
+						<p class="portfolio-card__title">Лэндинг<br> Входные и межкомнатные двери</p>
+					</a>
+					<a href="/portfolio/dreams/" class="portfolio-card portfolio-card--dreams" target="_blank">
+						<p class="portfolio-card__title">Лэндинг<br> Организация мероприятий</p>
+					</a>
+
+
+					<a href="/portfolio/rudex/" class="portfolio-card portfolio-card--rudex" target="_blank">
+						<p class="portfolio-card__title">Лэндинг<br> Входные и межкомнатные двери</p>
+					</a>
+					<a href="/portfolio/used_cars/" class="portfolio-card portfolio-card--used_cars" target="_blank">
+						<p class="portfolio-card__title">Лэндинг<br> TITAN CARS</p>
+					</a>
+					<a href="/portfolio/pride_max/" class="portfolio-card portfolio-card--wide portfolio-card--pride_max">
+						<p class="portfolio-card__title">Лэндинг<br> Производство видео роликов</p>
+					</a>
+
+
+					<a href="/portfolio/science_prom/" class="portfolio-card portfolio-card--science_prom" target="_blank">
+						<p class="portfolio-card__title">Портал<br> Министерства Промышленности и Науки</p>
+					</a>
+
+				</div>
+			</div>
+		</section>
 
 		<?php include ($_SERVER['DOCUMENT_ROOT'] . '/modules/footer-en.php'); ?>
 
