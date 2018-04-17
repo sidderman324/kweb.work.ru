@@ -36,7 +36,7 @@
 		<div class="case__block">
 			<div class="case__block-head">
 				<span class="case__strip"></span>
-				<h2 class="case__title">ЗАДАЧА</h2>
+				<h2 class="case__title">A task</h2>
 				<p class="case__text">We helped bring this company on the Internet, as well as starting a trial launch of a new channel. Design with media content and portfolio.</p>
 			</div>
 			<a href="/web_service/" class="main__btn case__btn">To order a site</a>
@@ -46,11 +46,11 @@
 				<span class="case__strip"></span>
 				<h2 class="case__title">Performers</h2>
 				<ul class="case__list">
-					<li class="case__item"><span>STO:</span> <a href="#">Артем</a></li>
-					<li class="case__item"><span>Designer:</span> <a href="#">Алексей</a></li>
-					<li class="case__item"><span>Front-End dev.:</span> <a href="#">Сергей</a></li>
-					<li class="case__item"><span>Back-End dev.:</span> <a href="#">Евгений, Денис, Эрик</a></li>
-					<li class="case__item"><span>SEO/SMM:</span> <a href="#">Даниил</a></li>
+					<li class="case__item"><span>STO:</span> <a href="/en/team/">Artem</a></li>
+					<li class="case__item"><span>Designer:</span> <a href="/en/team/">Alex</a></li>
+					<li class="case__item"><span>Front-End dev.:</span> <a href="/en/team/">Sergey</a></li>
+					<li class="case__item"><span>Back-End dev.:</span> <a href="/en/team/">Evgeny, Denis, Erik</a></li>
+					<li class="case__item"><span>SEO/SMM:</span> <a href="/en/team/">Daniil</a></li>
 				</ul>
 			</div>
 		</div>

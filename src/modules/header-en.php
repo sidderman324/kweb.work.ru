@@ -38,10 +38,10 @@ switch ($urls[1]) {
 				</li>
 				<li class="main-menu__item <?php echo $dev; ?>"><a class="main-menu__link main-menu__link--hidden">Web development</a>
 					<ul class="submenu">
-						<li class="submenu__item"><a href="/en/dev/websitedev/" class="submenu__link">Разработка сайтов и сервисов</a></li>
-						<li class="submenu__item"><a href="/en/dev/seo/" class="submenu__link">SEO продвижение сайтов</a></li>
+						<li class="submenu__item"><a href="/en/dev/websitedev/" class="submenu__link">Website creation and development</a></li>
+						<li class="submenu__item"><a href="/en/dev/seo/" class="submenu__link">Website promotion</a></li>
 						<li class="submenu__item"><a href="/en/dev/smm/" class="submenu__link">SMM и SMO</a></li>
-						<li class="submenu__item"><a href="/en/dev/marketing/" class="submenu__link">Интернет маркетинг</a></li>
+						<li class="submenu__item"><a href="/en/dev/marketing/" class="submenu__link">Internet Marketing</a></li>
 					</ul>
 				</li>
 				<li class="main-menu__item <?php echo $portfolio; ?>"><a href="/en/portfolio/" class="main-menu__link">Portfolio</a>
@@ -54,7 +54,7 @@ switch ($urls[1]) {
 		<a href="tel:+79002538787" class="page-header__phone">8 900 253 87 87</a>
 
 		<a href="/" class="page-header__lang-select page-header__lang-select--rus">Русский / </a>
-		<a href="/ch/" class="page-header__lang-select page-header__lang-select--ch">中国</a>
+		<a href="/ch/" class="page-header__lang-select page-header__lang-select--ch">中文</a>
 
 		<div class="page-header__burger-wrapper">
 			<span class="page-header__burger"></span>

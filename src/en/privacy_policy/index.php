@@ -20,50 +20,50 @@
 
 		<section class="privacy">
 			<div class="container privacy__inner">
-				<h1 class="privacy__title">Политика конфиденциальности</h1>
+				<h1 class="privacy__title">Privacy policy</h1>
 				<ul class="privacy__list privacy__list--main">
 					<li class="privacy__item">
 						<p class="privacy__text">
-							1. Выражаю Обществу с ограниченной ответственностью «КАВЕБ» ИНН 6685063137, КПП 668501001, юридический адрес: г. Краснодар, ул. Дзержинского, дом 3/2, офис 510 (далее – сайт компании KWEB, адрес в сети интернет: kweb.studio) и его представителям, свое согласие на автоматизированную и неавтоматизированную обработку моих персональных данных, включая сбор, систематизацию, накопление, хранение, уточнение (обновление, изменение), использование, передачу (между сотрудниками компании KWEB, а также в иных случаях требования действующего законодательства), обезличивание, блокирование, уничтожение следующих моих персональных данных, переданных мною лично в компанию KWEB, в т.ч. с использованием любых возможных интернет-сервисов:
+							1. I express to the limited liability company "KAVEB" INN 6685063137, KPP 668501001, legal address: Krasnodar, ul. Dzerzhinsky, building 3/2, office 510 (hereinafter referred to as the KWEB website, Internet address: kweb.studio) and its representatives, my consent to the automated and manual processing of my personal data, including collection, systematization, accumulation, storage, clarification (update, change), use, transfer (between employees of KWEB, as well as in other cases, the requirements of the current legislation), depersonalization, blocking, destruction of my personal data that I personally gave to KWEB, including using any possible Internet services:
 						</p>
 						<ul class="privacy__list">
-							<li class="privacy__item-small"><p class="privacy__text">- Фамилия, имя, отчество,</p></li>
-							<li class="privacy__item-small"><p class="privacy__text">- Номер телефона (домашний/ сотовый);</p></li>
-							<li class="privacy__item-small"><p class="privacy__text">- Условия заказа в случае его оформления;</p></li>
-							<li class="privacy__item-small"><p class="privacy__text">- Место работы;</p></li>
-							<li class="privacy__item-small"><p class="privacy__text">- Источник захода на сайт компании KWEB (далее – сайт) и информация поискового или рекламного запроса;</p></li>
-							<li class="privacy__item-small"><p class="privacy__text">- Данные о пользовательском устройстве (среди которых разрешение, версия и другие атрибуты, характеризуемые пользовательское устройство, IP-адрес);</p></li>
-							<li class="privacy__item-small"><p class="privacy__text">- Информация о браузере пользователя (или иной программе, с помощью которой осуществляется доступ в сеть Интернет), технические характеристики оборудования и программного обеспечения, используемых пользователем;</p></li>
+							<li class="privacy__item-small"><p class="privacy__text">- Full Name,</p></li>
+							<li class="privacy__item-small"><p class="privacy__text">- Phone number (home / cellular);</p></li>
+							<li class="privacy__item-small"><p class="privacy__text">- Conditions of the order in case of its registration;</p></li>
+							<li class="privacy__item-small"><p class="privacy__text">- Place of work;</p></li>
+							<li class="privacy__item-small"><p class="privacy__text">- Source of call to the website of KWEB (hereinafter referred to as the site) and information of a search or advertising request;</p></li>
+							<li class="privacy__item-small"><p class="privacy__text">- Data about the user's device (among which is the resolution, version and other attributes, characterized by the user devices, IP-address);</p></li>
+							<li class="privacy__item-small"><p class="privacy__text">- Information about the user's browser (or other program that accesses the Internet), technical specifications of the equipment and software used by the user;</p></li>
 							<li class="privacy__item-small"><p class="privacy__text"></p></li>
-							<li class="privacy__item-small"><p class="privacy__text">- Дата и время доступа;</p></li>
-							<li class="privacy__item-small"><p class="privacy__text">- Пользовательские клики, просмотры страниц, заполнения полей, показы и просмотры баннеров;</p></li>
-							<li class="privacy__item-small"><p class="privacy__text">- Данные, характеризующие аудиторные сегменты;</p></li>
-							<li class="privacy__item-small"><p class="privacy__text">- Параметры сессии;</p></li>
-							<li class="privacy__item-small"><p class="privacy__text">- Данные о времени посещения;</p></li>
-							<li class="privacy__item-small"><p class="privacy__text">- Идентификатор пользователя, хранимый в cookie.</p></li>
+							<li class="privacy__item-small"><p class="privacy__text">- Date and time of access;</p></li>
+							<li class="privacy__item-small"><p class="privacy__text">- Custom clicks, page views, field fillings, impressions and banner views;</p></li>
+							<li class="privacy__item-small"><p class="privacy__text">- Data characterizing the audience segments;</p></li>
+							<li class="privacy__item-small"><p class="privacy__text">- Session parameters;</p></li>
+							<li class="privacy__item-small"><p class="privacy__text">- Data on the time of visit;</p></li>
+							<li class="privacy__item-small"><p class="privacy__text">- The user ID stored in cookie.</p></li>
 						</ul>
 					</li>
 					<li class="privacy__item">
-						<p class="privacy__text">2. Компания KWEB, может обрабатывать мои персональные данные сроком 3 года в следующих целях:</p>
+						<p class="privacy__text">2. KWEB can process my personal data for 3 years for the following purposes:</p>
 						<ul class="privacy__list">
-							<li class="privacy__item-small"><p class="privacy__text">- Идентификации пользователей (посетителей) сайта компании KWEB;</p></li>
-							<li class="privacy__item-small"><p class="privacy__text">- Связи со мной, в том числе направление уведомлений, запросов и информации, касающихся использования сайта компании KWEB, исполнения соглашений и договоров, а также обработки запросов и заявок от меня.</p></li>
-							<li class="privacy__item-small"><p class="privacy__text">- Обезличивания персональных данных для получения обезличенных статистических данных, которые передаются третьему лицу для проведения исследований, выполнения работ или оказания услуг по поручению сайта компании KWEB.</p></li>
+							<li class="privacy__item-small"><p class="privacy__text">- Identification of users (visitors) of the KWEB website;</p></li>
+							<li class="privacy__item-small"><p class="privacy__text">- To connect with me, including sending notifications, inquiries and information regarding the use of the KWEB website, execution of agreements and contracts, and processing requests and applications from me.</p></li>
+							<li class="privacy__item-small"><p class="privacy__text">- Identification of personal data for obtaining impersonal statistics that are transferred to a third party for research, performance of work or provision of services on behalf of the KWEB website.</p></li>
 						</ul>
 					</li>
 					<li class="privacy__item">
-						<p class="privacy__text">3. Компания KWEB гарантирует защиту полученных персональных данных. Персональные данные субъектов, обрабатываемые с использованием средств автоматизации в разных целях, хранятся в разных папках. Персональные данные, зафиксированные на бумажных носителях, хранятся в запираемых шкафах либо в запираемых помещениях с ограниченным правом доступа.</p>
+						<p class="privacy__text">3. KWEB guarantees the protection of personal data received. Personal data of subjects, processed using automation tools for different purposes, are stored in different folders. Personal data recorded on hard copies is stored in lockable cabinets or in lockable rooms with limited access rights.</p>
 						<ul class="privacy__list">
-							<li class="privacy__item-small"><p class="privacy__text">- Хранение персональных данных в форме, позволяющей определить субъекта персональных данных, осуществляется не дольше, чем этого требуют цели их обработки, и они подлежат уничтожению по достижении целей обработки или в случае утраты необходимости в их достижении.</p></li>
-							<li class="privacy__item-small"><p class="privacy__text">- Персональные данные на электронных носителях уничтожаются путем стирания или форматирования носителя.</p></li>
-							<li class="privacy__item-small"><p class="privacy__text">- Уничтожение документов (носителей), содержащих персональных данных, производится путем сожжения, дробления (измельчения), химического разложения, превращения в бесформенную массу или порошок. Для уничтожения бумажных документов допускается применение шредера.</p></li>
+							<li class="privacy__item-small"><p class="privacy__text">- The storage of personal data in a form that allows to determine the subject of personal data is carried out no longer than required by the purpose of processing, and they are subject to destruction upon achievement of processing purposes or in case of loss of the need to achieve them.</p></li>
+							<li class="privacy__item-small"><p class="privacy__text">- Personal data on electronic media is destroyed by erasing or formatting the media.</p></li>
+							<li class="privacy__item-small"><p class="privacy__text">- Destruction of documents (carriers) containing personal data is carried out by burning, crushing (crushing), chemical decomposition, transformation into a shapeless mass or powder. For the destruction of paper documents, a shredder is allowed.</p></li>
 						</ul>
 					</li>
 					<li class="privacy__item">
-						<p class="privacy__text">4. Обработка (в информационных системах персональных данных и без использования средств автоматизации, а также смешанным способом) моих персональных данных должна осуществляться в соответствии с требованиями Федерального закона Российской Федерации от 27.07.2006г. № 152-ФЗ «О персональных данных».</p>
+						<p class="privacy__text">4. Processing (in information systems of personal data and without the use of automation or in a joint way) of my personal data must be carried out in accordance with the requirements of the Federal Law of the Russian Federation of 27.07.2006. No. 152-FZ "On Personal Data".</p>
 					</li>
 					<li class="privacy__item">
-						<p class="privacy__text">5. Настоящее согласие может быть отозвано письменным заявлением на email: info@kweb.studio</p>
+						<p class="privacy__text">5. This consent can be revoked by a written application to the email: info@kweb.studio</p>
 					</li>
 				</ul>
 			</div>

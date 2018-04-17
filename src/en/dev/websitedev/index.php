@@ -20,7 +20,7 @@
 
 		<section class="portfolio portfolio__wrapper">
 			<div class="container">
-				<h1 class="portfolio__title">СОЗДАНИЕ САЙТОВ, НАПИСАНИЕ САЙТОВ В КРАСНОДАРЕ</h1>
+				<h1 class="portfolio__title">Website creation and development</h1>
 
 
 				<div class="conianer">

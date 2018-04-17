@@ -20,7 +20,7 @@
 
 		<section class="portfolio portfolio__wrapper">
 			<div class="container">
-				<h1 class="portfolio__title">Продвижение сайта в Краснодаре</h1>
+				<h1 class="portfolio__title">Website promotion</h1>
 
 
 				<div class="conianer">

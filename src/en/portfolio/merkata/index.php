@@ -7,8 +7,8 @@
 	<link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700&amp;subset=cyrillic" rel="stylesheet">
 	<link rel="stylesheet" href="/css/style.css?v=78654664">
 	<link rel="icon" type="image/PNG" href="/favicon.png">
-	<meta name="description" content="Мерката - онлайн-касса" />
-	<title>Мерката - онлайн-касса</title>
+	<meta name="description" content="Merkata- online cash register" />
+	<title>Merkata- online cash register</title>
 </head>
 
 
@@ -24,7 +24,7 @@
 		<div class="case__block">
 			<div class="case__block-head">
 				<span class="case__strip"></span>
-				<h1 class="case__title case__title--main">Мерката</h1>
+				<h1 class="case__title case__title--main">Merkata- online cash register</h1>
 				<p class="case__text case__text--date">Release date: 20.02.2018</p>
 			</div>
 			<div class="case__frame-wrapper">
@@ -93,11 +93,11 @@
 				<span class="case__strip"></span>
 				<h2 class="case__title">Performers</h2>
 				<ul class="case__list">
-					<li class="case__item"><span>STO:</span> <a href="#">Артем</a></li>
-					<li class="case__item"><span>Designer:</span> <a href="#">Алексей</a></li>
-					<li class="case__item"><span>Front-End dev.:</span> <a href="#">Сергей</a></li>
-					<li class="case__item"><span>Back-End dev.:</span> <a href="#">Евгений, Денис, Эрик</a></li>
-					<li class="case__item"><span>SEO/SMM:</span> <a href="#">Даниил</a></li>
+					<li class="case__item"><span>STO:</span> <a href="/en/team/">Artem</a></li>
+					<li class="case__item"><span>Designer:</span> <a href="/en/team/">Alex</a></li>
+					<li class="case__item"><span>Front-End dev.:</span> <a href="/en/team/">Sergey</a></li>
+					<li class="case__item"><span>Back-End dev.:</span> <a href="/en/team/">Evgeny, Denis, Erik</a></li>
+					<li class="case__item"><span>SEO/SMM:</span> <a href="/en/team/">Daniil</a></li>
 				</ul>
 			</div>
 		</div>

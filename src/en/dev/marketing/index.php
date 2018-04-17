@@ -20,7 +20,7 @@
 
 		<section class="portfolio portfolio__wrapper">
 			<div class="container">
-				<h1 class="portfolio__title">Launch of online advertising in the network for business, Krasnodar</h1>
+				<h1 class="portfolio__title">Online advertising launch for business</h1>
 
 
 				<div class="conianer">

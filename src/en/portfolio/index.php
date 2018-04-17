@@ -22,7 +22,7 @@
 			<div class="container">
 				<h1 class="portfolio__title">Portfolio</h1>
 				<div class="portfolio__tag-wrapper">
-					<a href="/dev/websitedev/" class="portfolio__tag">website development</a>
+					<a href="/dev/websitedev/" class="portfolio__tag">Website development</a>
 					<a href="/dev/seo/" class="portfolio__tag">SEO website promotion</a>
 					<a href="/dev/smm/" class="portfolio__tag">SMM</a>
 					<a href="/dev/marketing/" class="portfolio__tag">internet marketing</a>
@@ -31,7 +31,7 @@
 				<div class="portfolio__item-wrapper">
 
 					<a href="/portfolio/negabarite/" class="portfolio-card portfolio-card--wide portfolio-card--negabarit">
-						<p class="portfolio-card__title">Сайт по аренде дорожно-строительной техники</p>
+						<p class="portfolio-card__title">Negabarite on-line. Construction and road building equipment rental</p>
 					</a>
 					<a href="http://lco.expert/" class="portfolio-card portfolio-card--ico_expert" target="_blank">
 						<p class="portfolio-card__title">Media website on cryptocurrency</p>
@@ -43,41 +43,41 @@
 
 
 					<a href="/portfolio/merkata/" class="portfolio-card portfolio-card--merkata">
-						<p class="portfolio-card__title"">Онлайн касса для Вашего бизнеса</p>
+						<p class="portfolio-card__title">Merkata - online cash register</p>
 					</a>
 					<a href="/portfolio/aquaris/" class="portfolio-card portfolio-card--aquaris">
-						<p class="portfolio-card__title"">Лэндинг<br> Aquaris системы автополива</p>
+						<p class="portfolio-card__title">AQUARIUS<br> automated watering systems</p>
 					</a>
 					<a href="/portfolio/peregnoj/" class="portfolio-card portfolio-card--wide  portfolio-card--peregnoj" target="_blank">
-						<p class="portfolio-card__title">Как продавать перегной в интернете?</p>
+						<p class="portfolio-card__title">How to sell mulch through the internet?</p>
 					</a>
 
 
 
 					<a href="/portfolio/honey_teddy/" class="portfolio-card portfolio-card--wide portfolio-card--honey_teddy">
-						<p class="portfolio-card__title">Лэндинг<br> Витамины для волос Honey Teddy</p>
+						<p class="portfolio-card__title">HONEY TEDDY<br> Vitamins for Hair</p>
 					</a>
 					<a href="/portfolio/doors/" class="portfolio-card portfolio-card--doors" target="_blank">
-						<p class="portfolio-card__title">Лэндинг<br> Входные и межкомнатные двери</p>
+						<p class="portfolio-card__title">DOORNK<br> entrance and connecting doors</p>
 					</a>
 					<a href="/portfolio/dreams/" class="portfolio-card portfolio-card--dreams" target="_blank">
-						<p class="portfolio-card__title">Лэндинг<br> Организация мероприятий</p>
+						<p class="portfolio-card__title">7 DREAMS<br> event management</p>
 					</a>
 
 
 					<a href="/portfolio/rudex/" class="portfolio-card portfolio-card--rudex" target="_blank">
-						<p class="portfolio-card__title">Лэндинг<br> Входные и межкомнатные двери</p>
+						<p class="portfolio-card__title">RUDEX<br> installation of doors and portals</p>
 					</a>
 					<a href="/portfolio/used_cars/" class="portfolio-card portfolio-card--used_cars" target="_blank">
-						<p class="portfolio-card__title">Лэндинг<br> TITAN CARS</p>
+						<p class="portfolio-card__title">TITAN CARS help in<br> choosing a used car</p>
 					</a>
 					<a href="/portfolio/pride_max/" class="portfolio-card portfolio-card--wide portfolio-card--pride_max">
-						<p class="portfolio-card__title">Лэндинг<br> Производство видео роликов</p>
+						<p class="portfolio-card__title">PRIDEMAX<br> video production</p>
 					</a>
 
 
 					<a href="/portfolio/science_prom/" class="portfolio-card portfolio-card--science_prom" target="_blank">
-						<p class="portfolio-card__title">Портал<br> Министерства Промышленности и Науки</p>
+						<p class="portfolio-card__title">MINISTRY OF INDUSTRY AND SCIENCE<br> OF SVERDLOVSK REGION</p>
 					</a>
 
 				</div>

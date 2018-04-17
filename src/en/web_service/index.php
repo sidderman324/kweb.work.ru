@@ -15,7 +15,7 @@
 <body>
 
 	<div class="main-inner main-inner--paralax">
-		
+
 		<?php include ($_SERVER['DOCUMENT_ROOT'] . '/modules/header-en.php'); ?>
 
 		<?php include ($_SERVER['DOCUMENT_ROOT'] . '/modules/paralax.php'); ?>
@@ -23,7 +23,7 @@
 		<section class="main">
 			<div class="container main__inner">
 				<div class="main__block main__block--wide">
-					<h1 class="main__title main__title--small">Do you have some project that you want to be done?<br>Just contact us by form below</h1>
+					<h1 class="main__title main__title--small">Do you have a project you need to complete?<br>Just contact us by filling out the form below</h1>
 					<form action="/php/feedback_script.php" method="post" class="feedback-form feedback-form--wide" id="form_send">
 						<span class="feedback-form__input-wrapper">
 							<span class="feedback-form__bgr"></span>
@@ -39,8 +39,8 @@
 								<li class="feedback-form__item"> SMM</li>
 							</ul>
 						</span>
-						<input type="text" class="feedback-form__input" name="yourName" placeholder="your Name">
-						<input type="email" class="feedback-form__input" name="yourMail" placeholder="your e-mail" required>
+						<input type="text" class="feedback-form__input" name="yourName" placeholder="Name">
+						<input type="email" class="feedback-form__input" name="yourMail" placeholder="E-mail" required>
 						<p class="feedback-form__text">By submitting that form you automatically accept <a href="/privacy_policy/" class="">confidentiality policy</a><br> You also agree to that your personal data may be transferred to and stored in a country that is not a member of the European Union or part of the European Economic Area</p>
 						<span class="main__btn"><input type="submit" class="feedback-form__submit main__btn" value="Submit form"></span>
 					</form>
