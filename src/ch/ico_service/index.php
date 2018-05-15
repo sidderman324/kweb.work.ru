@@ -29,7 +29,7 @@
 						<input type="email" class="feedback-form__input" name="yourMail" placeholder="your e-mail" size="30" maxlength="50" required>
 						<input type="text" class="feedback-form__input" name="phoneNumber" placeholder="your contact phone" id="phone" required>
 						<p class="feedback-form__text">通过提交此表格，您将自动接受我们的隐私政策<br>您也同意您的个人资料可能会转移并存储在不属于欧盟成员国或欧洲经济区的国家。</p>
-						<span class="main__btn"><input type="submit" class="feedback-form__submit main__btn" value="Submit form"></span>
+						<span class="main__btn"><input type="submit" class="feedback-form__submit main__btn" value="提交"></span>
 					</form>
 				</div>
 

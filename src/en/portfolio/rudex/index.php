@@ -7,8 +7,8 @@
 	<link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700&amp;subset=cyrillic" rel="stylesheet">
 	<link rel="stylesheet" href="/css/style.css?v=78654664">
 	<link rel="icon" type="image/PNG" href="/favicon.png">
-	<meta name="description" content="RUDEX installation of doors and portals" />
-	<title>RUDEX installation of doors and portals</title>
+	<meta name="description" content="RUDEX installation of doors and doorways" />
+	<title>RUDEX installation of doors and doorways</title>
 </head>
 
 
@@ -24,7 +24,7 @@
 		<div class="case__block">
 			<div class="case__block-head">
 				<span class="case__strip"></span>
-				<h1 class="case__title case__title--main">RUDEX installation of doors and portals</h1>
+				<h1 class="case__title case__title--main">RUDEX installation of doors and doorways</h1>
 				<p class="case__text case__text--date">Release date: 20.02.2018</p>
 			</div>
 			<div class="case__frame-wrapper">

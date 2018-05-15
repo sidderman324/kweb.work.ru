@@ -24,10 +24,10 @@
 
 		<div class="contacts__wrapper">
 			<div class="contacts__block">
-				<p class="contacts__text"><span>Adress:</span> Russian Federation<br>Krasnodar city<br>3/2 Dzerjinskogo street <br>office 510</p>
+				<p class="contacts__text"><span>地址:</span> Russian Federation<br>Krasnodar city<br>3/2 Dzerjinskogo street <br>office 510</p>
 
-				<p class="contacts__text contacts__text--link"><span>Tel:</span> +7 900 253 87 87</p>
-				<p class="contacts__text contacts__text--link"><span>E-mail:</span> info@kweb.studio</p>
+				<p class="contacts__text contacts__text--link"><span>电话:</span> +7 900 253 87 87</p>
+				<p class="contacts__text contacts__text--link"><span>邮箱:</span> info@kweb.studio</p>
 
 
 			</div>

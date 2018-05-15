@@ -81,14 +81,14 @@
 				</div>
 			</div>
 		</div>
-		<div class="case__block">
+		<!-- <div class="case__block">
 			<div class="case__block-head">
 				<span class="case__strip"></span>
 				<h2 class="case__title">РЕЗУЛЬТАТ</h2>
 				<p class="case__text">Навоз отлично продается в интернете и инстаграме. Конверсия в заказ с Я.Директа в сезонные периоды достигает 63%. Средняя конверсия 21%. В инстаграме отлично работают посты на хайповые темы. Итого: все работает хорошо, заказов много, бюджеты скромные.</p>
 			</div>
 			<a href="/web_service/" class="main__btn case__btn">Как это работает?</a>
-		</div>
+		</div> -->
 		<div class="case__block">
 			<div class="case__block-head">
 				<span class="case__strip"></span>

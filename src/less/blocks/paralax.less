@@ -1,8 +1,9 @@
 // Для импорта в диспетчер подключений: @import './src/less/blocks/paralax.less';
 
 .paralax {
+	display: none;
 	position: absolute;
-	top: 50%;
+	top: 45%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	z-index: 1;
@@ -13,7 +14,7 @@
 	@media (min-width: @screen-xs) and (max-width: @screen-md) {
 		background-image: url('/img/main_bgr.png');
 		background-repeat: no-repeat;
-		height: 100vh;
+		height: 120vh;
 		width: 130vw;
 		background-position: 50% 80%;
 	}
@@ -41,7 +42,7 @@
 	background-repeat: no-repeat;
 	z-index: 1;
 	background-position-x: -170px;
-} 
+}
 .paralax_layer1{
 	background-image: url('/img/main_bgr_1.png');
 	background-repeat: no-repeat;
@@ -70,7 +71,7 @@
 	left: 0;
 	background-image: url('/img/main_cloud.png');
 	background-size: cover;
-	background-repeat-x: repeat; 
+	background-repeat-x: repeat;
 	z-index: 10;
 	@media (min-width: @screen-xs) and (max-width: @screen-sm) {
 		display: none;

@@ -31,7 +31,7 @@
 				<div class="portfolio__item-wrapper">
 
 					<a href="/portfolio/negabarite/" class="portfolio-card portfolio-card--wide portfolio-card--negabarit">
-						<p class="portfolio-card__title">Negabarite on-line. Construction and road building equipment rental</p>
+						<p class="portfolio-card__title">Negabarite online. Construction and road building equipment rental</p>
 					</a>
 					<a href="http://lco.expert/" class="portfolio-card portfolio-card--ico_expert" target="_blank">
 						<p class="portfolio-card__title">Media website on cryptocurrency</p>
@@ -66,7 +66,7 @@
 
 
 					<a href="/portfolio/rudex/" class="portfolio-card portfolio-card--rudex" target="_blank">
-						<p class="portfolio-card__title">RUDEX<br> installation of doors and portals</p>
+						<p class="portfolio-card__title">RUDEX<br> installation of doors and doorways</p>
 					</a>
 					<a href="/portfolio/used_cars/" class="portfolio-card portfolio-card--used_cars" target="_blank">
 						<p class="portfolio-card__title">TITAN CARS help in<br> choosing a used car</p>
