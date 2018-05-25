@@ -39,6 +39,7 @@ switch ($urls[1]) {
 				<li class="main-menu__item <?php echo $dev; ?>"><a class="main-menu__link main-menu__link--hidden">Веб разработка</a>
 					<ul class="submenu">
 						<li class="submenu__item"><a href="/dev/websitedev/" class="submenu__link">Разработка сайтов и сервисов</a></li>
+						<li class="submenu__item"><a href="/dev/landingpage/" class="submenu__link">Создание продающего лендинга</a></li>
 						<li class="submenu__item"><a href="/dev/seo/" class="submenu__link">SEO продвижение сайтов</a></li>
 						<li class="submenu__item"><a href="/dev/smm/" class="submenu__link">SMM и SMO</a></li>
 						<li class="submenu__item"><a href="/dev/marketing/" class="submenu__link">Интернет маркетинг</a></li>

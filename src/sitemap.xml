@@ -1,203 +1,224 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<!-- Файл sitemap.xml динамически создан сайтом https://gensitemap.ru/ 21.03.2018 18:57,
-	всего найдено 33. страниц-->
-	<url>
-		<loc>http://kweb.studio/en/</loc>
-		<lastmod>2018-03-21T18:57:12+03:00</lastmod>
-		<priority>0.5</priority>
-		<changefreq>hourly</changefreq>
-	</url>
-	<url>
-		<loc>http://kweb.studio/portfolio/rudex/</loc>
-		<lastmod>2018-03-21T18:57:12+03:00</lastmod>
-		<priority>0.3</priority>
-		<changefreq>daily</changefreq>
-	</url>
-	<url>
-		<loc>http://kweb.studio/</loc>
-		<lastmod>2018-03-21T18:57:12+03:00</lastmod>
-		<priority>1</priority>
-		<changefreq>always</changefreq>
-	</url>
-	<url>
-		<loc>http://kweb.studio/portfolio/merkata/</loc>
-		<lastmod>2018-03-21T18:57:12+03:00</lastmod>
-		<priority>0.3</priority>
-		<changefreq>daily</changefreq>
-	</url>
-	<url>
-		<loc>http://kweb.studio/portfolio/</loc>
-		<lastmod>2018-03-21T18:57:12+03:00</lastmod>
-		<priority>0.5</priority>
-		<changefreq>hourly</changefreq>
-	</url>
-	<url>
-		<loc>http://kweb.studio/ico_service/</loc>
-		<lastmod>2018-03-21T18:57:12+03:00</lastmod>
-		<priority>0.5</priority>
-		<changefreq>hourly</changefreq>
-	</url>
-	<url>
-		<loc>http://kweb.studio/en/dev/smm.php</loc>
-		<lastmod>2018-03-21T18:57:12+03:00</lastmod>
-		<priority>0.3</priority>
-		<changefreq>daily</changefreq>
-	</url>
-	<url>
-		<loc>http://kweb.studio/en/contacts/</loc>
-		<lastmod>2018-03-21T18:57:12+03:00</lastmod>
-		<priority>0.3</priority>
-		<changefreq>daily</changefreq>
-	</url>
-	<url>
-		<loc>http://kweb.studio/contacts/</loc>
-		<lastmod>2018-03-21T18:57:12+03:00</lastmod>
-		<priority>0.5</priority>
-		<changefreq>hourly</changefreq>
-	</url>
-	<url>
-		<loc>http://kweb.studio/portfolio/honey_teddy/</loc>
-		<lastmod>2018-03-21T18:57:12+03:00</lastmod>
-		<priority>0.3</priority>
-		<changefreq>daily</changefreq>
-	</url>
-	<url>
-		<loc>http://kweb.studio/dev/marketing/</loc>
-		<lastmod>2018-03-21T18:57:12+03:00</lastmod>
-		<priority>0.5</priority>
-		<changefreq>hourly</changefreq>
-	</url>
-	<url>
-		<loc>http://kweb.studio/portfolio/doors/</loc>
-		<lastmod>2018-03-21T18:57:12+03:00</lastmod>
-		<priority>0.3</priority>
-		<changefreq>daily</changefreq>
-	</url>
-	<url>
-		<loc>http://kweb.studio/dev/seo/</loc>
-		<lastmod>2018-03-21T18:57:12+03:00</lastmod>
-		<priority>0.5</priority>
-		<changefreq>hourly</changefreq>
-	</url>
-	<url>
-		<loc>http://kweb.studio/portfolio/used_cars/</loc>
-		<lastmod>2018-03-21T18:57:12+03:00</lastmod>
-		<priority>0.3</priority>
-		<changefreq>daily</changefreq>
-	</url>
-	<url>
-		<loc>http://kweb.studio/web_service/</loc>
-		<lastmod>2018-03-21T18:57:12+03:00</lastmod>
-		<priority>0.5</priority>
-		<changefreq>hourly</changefreq>
-	</url>
-	<url>
-		<loc>http://kweb.studio/en/privacy_policy/</loc>
-		<lastmod>2018-03-21T18:57:12+03:00</lastmod>
-		<priority>0.3</priority>
-		<changefreq>daily</changefreq>
-	</url>
-	<url>
-		<loc>http://kweb.studio/dev/websitedev/</loc>
-		<lastmod>2018-03-21T18:57:12+03:00</lastmod>
-		<priority>0.5</priority>
-		<changefreq>hourly</changefreq>
-	</url>
-	<url>
-		<loc>http://kweb.studio/en/team/</loc>
-		<lastmod>2018-03-21T18:57:12+03:00</lastmod>
-		<priority>0.3</priority>
-		<changefreq>daily</changefreq>
-	</url>
-	<url>
-		<loc>http://kweb.studio/en/portfolio/</loc>
-		<lastmod>2018-03-21T18:57:12+03:00</lastmod>
-		<priority>0.3</priority>
-		<changefreq>daily</changefreq>
-	</url>
-	<url>
-		<loc>http://kweb.studio/portfolio/science_prom/</loc>
-		<lastmod>2018-03-21T18:57:12+03:00</lastmod>
-		<priority>0.3</priority>
-		<changefreq>daily</changefreq>
-	</url>
-	<url>
-		<loc>http://kweb.studio/en/dev/seo.php</loc>
-		<lastmod>2018-03-21T18:57:12+03:00</lastmod>
-		<priority>0.3</priority>
-		<changefreq>daily</changefreq>
-	</url>
-	<url>
-		<loc>http://kweb.studio/team/</loc>
-		<lastmod>2018-03-21T18:57:12+03:00</lastmod>
-		<priority>0.5</priority>
-		<changefreq>hourly</changefreq>
-	</url>
-	<url>
-		<loc>http://kweb.studio/en/ico_service/</loc>
-		<lastmod>2018-03-21T18:57:12+03:00</lastmod>
-		<priority>0.3</priority>
-		<changefreq>daily</changefreq>
-	</url>
-	<url>
-		<loc>http://kweb.studio/dev/smm/</loc>
-		<lastmod>2018-03-21T18:57:12+03:00</lastmod>
-		<priority>0.5</priority>
-		<changefreq>hourly</changefreq>
-	</url>
-	<url>
-		<loc>http://kweb.studio/en/web_service/</loc>
-		<lastmod>2018-03-21T18:57:12+03:00</lastmod>
-		<priority>0.3</priority>
-		<changefreq>daily</changefreq>
-	</url>
-	<url>
-		<loc>http://kweb.studio/en/dev/websitedev.php</loc>
-		<lastmod>2018-03-21T18:57:12+03:00</lastmod>
-		<priority>0.3</priority>
-		<changefreq>daily</changefreq>
-	</url>
-	<url>
-		<loc>http://kweb.studio/portfolio/peregnoj/</loc>
-		<lastmod>2018-03-21T18:57:12+03:00</lastmod>
-		<priority>0.3</priority>
-		<changefreq>daily</changefreq>
-	</url>
-	<url>
-		<loc>http://kweb.studio/en/dev/marketing.php</loc>
-		<lastmod>2018-03-21T18:57:12+03:00</lastmod>
-		<priority>0.3</priority>
-		<changefreq>daily</changefreq>
-	</url>
-	<url>
-		<loc>http://kweb.studio/portfolio/pride_max/</loc>
-		<lastmod>2018-03-21T18:57:12+03:00</lastmod>
-		<priority>0.3</priority>
-		<changefreq>daily</changefreq>
-	</url>
-	<url>
-		<loc>http://kweb.studio/privacy_policy/</loc>
-		<lastmod>2018-03-21T18:57:12+03:00</lastmod>
-		<priority>0.5</priority>
-		<changefreq>hourly</changefreq>
-	</url>
-	<url>
-		<loc>http://kweb.studio/portfolio/aquaris/</loc>
-		<lastmod>2018-03-21T18:57:12+03:00</lastmod>
-		<priority>0.3</priority>
-		<changefreq>daily</changefreq>
-	</url>
-	<url>
-		<loc>http://kweb.studio/portfolio/dreams/</loc>
-		<lastmod>2018-03-21T18:57:12+03:00</lastmod>
-		<priority>0.3</priority>
-		<changefreq>daily</changefreq>
-	</url>
-	<url>
-		<loc>http://kweb.studio/portfolio/negabarite/</loc>
-		<lastmod>2018-03-21T18:57:12+03:00</lastmod>
-		<priority>0.3</priority>
-		<changefreq>daily</changefreq>
-	</url>
-</urlset>		     		    			    
+﻿<?xml version="1.0" encoding="UTF-8"?>
+		<!--	created with www.mysitemapgenerator.com	-->
+		<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+	<loc>https://kweb.studio/</loc>
+	<lastmod>2018-04-18T16:45:26+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://kweb.studio/ico_service/</loc>
+	<lastmod>2018-04-18T16:45:26+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://kweb.studio/web_service/</loc>
+	<lastmod>2018-04-18T16:45:26+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://kweb.studio/dev/websitedev/</loc>
+	<lastmod>2018-04-18T16:45:27+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://kweb.studio/dev/seo/</loc>
+	<lastmod>2018-04-18T16:45:27+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://kweb.studio/dev/smm/</loc>
+	<lastmod>2018-04-18T16:45:28+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://kweb.studio/dev/marketing/</loc>
+	<lastmod>2018-04-18T16:45:28+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://kweb.studio/portfolio/</loc>
+	<lastmod>2018-04-18T16:45:28+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://kweb.studio/team/</loc>
+	<lastmod>2018-04-18T16:45:29+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://kweb.studio/contacts/</loc>
+	<lastmod>2018-04-18T16:45:29+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://kweb.studio/en/</loc>
+	<lastmod>2018-04-18T16:45:30+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://kweb.studio/ch/</loc>
+	<lastmod>2018-04-18T16:45:31+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://kweb.studio/privacy_policy/</loc>
+	<lastmod>2018-04-18T16:45:31+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://kweb.studio/portfolio/negabarite/</loc>
+	<lastmod>2018-04-18T16:45:33+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://kweb.studio/portfolio/merkata/</loc>
+	<lastmod>2018-04-18T16:45:33+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://kweb.studio/portfolio/aquaris/</loc>
+	<lastmod>2018-04-18T16:45:33+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://kweb.studio/portfolio/peregnoj/</loc>
+	<lastmod>2018-04-18T16:45:35+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://kweb.studio/portfolio/honey_teddy/</loc>
+	<lastmod>2018-04-18T16:45:35+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://kweb.studio/portfolio/doors/</loc>
+	<lastmod>2018-04-18T16:45:35+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://kweb.studio/portfolio/dreams/</loc>
+	<lastmod>2018-04-18T16:45:37+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://kweb.studio/portfolio/rudex/</loc>
+	<lastmod>2018-04-18T16:45:37+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://kweb.studio/portfolio/used_cars/</loc>
+	<lastmod>2018-04-18T16:45:37+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://kweb.studio/portfolio/pride_max/</loc>
+	<lastmod>2018-04-18T16:45:39+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://kweb.studio/portfolio/science_prom/</loc>
+	<lastmod>2018-04-18T16:45:39+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://kweb.studio/en/ico_service/</loc>
+	<lastmod>2018-04-18T16:45:39+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://kweb.studio/en/web_service/</loc>
+	<lastmod>2018-04-18T16:45:41+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://kweb.studio/en/dev/websitedev/</loc>
+	<lastmod>2018-04-18T16:45:41+01:00</lastmod>
+	<priority>0.4</priority>
+</url>
+<url>
+	<loc>https://kweb.studio/en/dev/seo/</loc>
+	<lastmod>2018-04-18T16:45:41+01:00</lastmod>
+	<priority>0.4</priority>
+</url>
+<url>
+	<loc>https://kweb.studio/en/dev/smm/</loc>
+	<lastmod>2018-04-18T16:45:43+01:00</lastmod>
+	<priority>0.4</priority>
+</url>
+<url>
+	<loc>https://kweb.studio/en/dev/marketing/</loc>
+	<lastmod>2018-04-18T16:45:43+01:00</lastmod>
+	<priority>0.4</priority>
+</url>
+<url>
+	<loc>https://kweb.studio/en/portfolio/</loc>
+	<lastmod>2018-04-18T16:45:44+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://kweb.studio/en/team/</loc>
+	<lastmod>2018-04-18T16:45:45+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://kweb.studio/en/contacts/</loc>
+	<lastmod>2018-04-18T16:45:45+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://kweb.studio/en/privacy_policy/</loc>
+	<lastmod>2018-04-18T16:45:46+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://kweb.studio/ch/ico_service/</loc>
+	<lastmod>2018-04-18T16:45:47+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://kweb.studio/ch/web_service/</loc>
+	<lastmod>2018-04-18T16:45:47+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://kweb.studio/ch/dev/websitedev/</loc>
+	<lastmod>2018-04-18T16:45:48+01:00</lastmod>
+	<priority>0.4</priority>
+</url>
+<url>
+	<loc>https://kweb.studio/ch/dev/seo/</loc>
+	<lastmod>2018-04-18T16:45:49+01:00</lastmod>
+	<priority>0.4</priority>
+</url>
+<url>
+	<loc>https://kweb.studio/ch/dev/smm/</loc>
+	<lastmod>2018-04-18T16:45:49+01:00</lastmod>
+	<priority>0.4</priority>
+</url>
+<url>
+	<loc>https://kweb.studio/ch/dev/marketing/</loc>
+	<lastmod>2018-04-18T16:45:50+01:00</lastmod>
+	<priority>0.4</priority>
+</url>
+<url>
+	<loc>https://kweb.studio/ch/portfolio/</loc>
+	<lastmod>2018-04-18T16:45:51+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://kweb.studio/ch/team/</loc>
+	<lastmod>2018-04-18T16:45:51+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://kweb.studio/ch/contacts/</loc>
+	<lastmod>2018-04-18T16:45:52+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://kweb.studio/ch/privacy_policy/</loc>
+	<lastmod>2018-04-18T16:45:53+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+</urlset>

@@ -136,13 +136,13 @@ $(document).ready(function(){
 				data: m_data,
 				success: function(){
 					jQuery('.feedback-form__result').fadeIn(200);
-					jQuery('.feedback-form__result-text').text('Ваша заявка принята, с Вами свяжется наш менеджер');
+					jQuery('.feedback-form__result-box').html('<p class="feedback-form__result-text">Ваша заявка принята, с Вами свяжется наш менеджер</p><p class="feedback-form__result-text feedback-form__result-text--audit">А пока посмотрите <a href="https://kweb.studio/portfolio/">наше портфолио</a></p>');
 					jQuery('.feedback-form__marker').removeClass('feedback-form__marker--active');
 					document.getElementById('form_send').reset();
 				},
 				error: function(){
 					jQuery('.feedback-form__result').fadeIn(200);
-					jQuery('.feedback-form__result-text').text('Ваша заявка не отправлена - попробуйте снова');
+					jQuery('.feedback-form__result-box').html('<p class="feedback-form__result-text">Ваша заявка не отправлена - попробуйте снова</p>');
 					document.getElementById('form_send').reset();
 				}
 			});

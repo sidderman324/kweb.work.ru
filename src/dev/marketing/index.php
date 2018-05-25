@@ -7,7 +7,37 @@
 	<link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700&amp;subset=cyrillic" rel="stylesheet">
 	<link rel="stylesheet" href="/css/style.css?v=78654664">
 	<link rel="icon" type="image/PNG" href="/favicon.png">
-	<meta name="description" content="КОМПЛЕКСНЫЙ МАРКЕТИНГ" />
+	<meta name="description" content="Агенство комплексного маркетинга KWEB. Нормально делай - нормально будет! Анализ рынка и конкурентов, стратегический маркетинг. Упаковка и продвижение. Интернет маркетинг." />
+	<meta name="keywords" content="интернет маркетинг, реклама в интернете, комплексный маркетинг, комплексная реклама, рекламная компания, стратегия продвижения, стратегический маркетинг" />
+	<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter48742856 = new Ya.Metrika({
+                    id:48742856,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/48742856" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
 	<title>Реклама в интернете для вашего бизнеса в Краснодаре</title>
 </head>
 

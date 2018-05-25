@@ -10,7 +10,6 @@
 
 <div class="feedback-form__result">
 	<span class="feedback-form__close"></span>
-	<p class="feedback-form__result-text">Ваша заявка принята, с Вами свяжется наш менеджер</p>
 </div>
 
 
